@@ -1,0 +1,42 @@
+.form {
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+    width: 437px;
+    height: 165px;
+}
+
+.form label {
+    display: none;
+}
+
+.form input {
+    width: 437px;
+    height: 45px;
+    margin: 16px 0px; 
+    background-color: transparent;
+    border: 1px solid #191A1D;
+    box-sizing: border-box;
+}
+
+.form {
+    display: flex;
+    justify-content: end;
+}
+
+
+.form input[type="submit" i] {
+    text-transform: uppercase;
+    width: 88px;
+    height: 36px;
+}
+
+.form input::placeholder {
+    color: #B6BABB
+}
+
+.form div.actions {
+    background-color: #191A1D !important;
+}

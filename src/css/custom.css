@@ -1,0 +1,152 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #27a3a4;
+  --ifm-color-primary-dark: #00c9c9;
+  --ifm-color-primary-darker: #27a3a4;
+  --ifm-color-primary-darkest: #62ffff;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+  --ifm-background-color: #efeff4;
+  --ifm-default-color: #191a1d;
+  --ifm-form-background: #d7d7d7;
+}
+
+html * {
+  font-family: "Montserrat", sans-serif !important;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+html[data-theme="dark"] {
+  --ifm-color-primary: #657f97;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-footer-background-color: #191a1d;
+  --ifm-background-color: #191a1d;
+  --ifm-default-color: #efeff4;
+  --ifm-form-background: #282828;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+  display: block;
+}
+
+html[data-theme="dark"] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar__logo {
+  padding-left: 1rem;
+}
+
+.footer--dark {
+  --ifm-footer-background-color: #191a1d;
+  background-color: var(--ifm-footer-background-color) !important;
+}
+
+.form {
+  padding: 4rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#hubspotForm {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+
+.form input, .form-text, .form p {
+  width: 437px;
+  max-width: 80vw;
+  background-color: transparent;
+}
+
+.form .form-text {
+  color: var(--ifm-default-color);
+}
+
+.form .form-text p {
+  color: var(--ifm-color-primary);
+  font-size: 24px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.form .form-text span {
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.form input {
+  height: 45px;
+  margin: 16px 0px;
+  border: 1px solid var(--ifm-default-color);
+  box-sizing: border-box;
+}
+
+.form input.hs-button {
+  text-transform: uppercase;
+  width: auto;
+  height: 36px;
+  transition: 0.2s;
+  margin: 0;
+  border-color: var(--ifm-color-primary);
+  background-color: var(--ifm-color-primary);
+  color: #d7d7d7;
+}
+
+.form input.hs-button:hover {
+  background-color: var(--ifm-color-primary);
+  color: #fff;
+  cursor: pointer;
+}
+
+.form .hs-email input {
+  font-size: 20px;
+  font-family: inherit;
+  padding: 8px;
+}
+
+.form input::placeholder {
+  color: #b6babb;
+}
+
+.form div.hs_submit.hs-submit {
+  display: flex;
+  justify-content: end;
+}
+
+.form div.submitted-message {
+  width: 100%;
+}
+
+ul.no-list.hs-error-msgs.inputs-list {
+  font-size: 10px;
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+}
+
+
+.form .hs-email ul {
+  display: none !important;
+}

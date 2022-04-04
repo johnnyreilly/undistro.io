@@ -1,0 +1,72 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+:root {
+  --title-font-size: 36px;
+}
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  background-image: url("/img/hero-bg.png");
+  background-position: center;
+  background-size: cover;
+}
+
+@media screen and (max-width: 966px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headline {
+  text-align: right;
+  font-weight: 200;
+  color: white;
+  font-size: var(--title-font-size);
+  margin: auto;
+}
+
+.main {
+  color: #666;
+  padding: 48px 0;
+}
+
+.describe .head {
+  font-size: var(--title-font-size);
+  font-weight: 200;
+  margin-bottom: 1rem;
+}
+
+.topics {
+  margin-top: 1rem;
+}
+
+@media (max-width: 1024px) {
+  .hand {
+    display: none;
+  }
+
+  .topics > div {
+    margin: 0.75rem 0;
+  }
+}
+
+@media (max-width: 600px) {
+  :root {
+    --title-font-size: 28px
+  }
+}
+
+.formContainer {
+  background-color: var(--ifm-form-background);
+}
