@@ -22,7 +22,7 @@ function HomepageHeader() {
 
 export default function Home() {
   return (
-    <Layout description="Description will go into a meta tag in <head />">
+    <Layout description="UnDistro is a vanilla, non-opinionated, and open source Kubernetes distribution">
       <HomepageHeader />
       <main className={styles.main}>
         <div className={clsx("container", styles.describe)}>

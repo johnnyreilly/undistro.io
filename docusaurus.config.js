@@ -54,47 +54,7 @@ const config = {
       },
       footer: {
         style: "dark",
-        links: [
-          {
-            title: "Docs",
-            items: [
-              {
-                label: "UnDistro",
-                to: "/docs",
-              },
-            ],
-          },
-          {
-            title: "Community",
-            items: [
-              {
-                label: "Discussions",
-                href: "https://github.com/getupio-undistro/undistro/discussions",
-              },
-              {
-                label: "Issues",
-                href: "https://github.com/getupio-undistro/undistro/issues"
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/getupio-undistro/undistro",
-              },
-            ],
-          },
-          {
-            title: "Follow Us",
-            items: [
-              {
-                label: "Instagram",
-                href: "https://instagram.com/undistro.io",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/undistro",
-              },
-            ],
-          },
-        ],
+        links: [],
         copyright: `Copyright © ${new Date().getFullYear()} UnDistro. Backed by Getup.`,
       },
       prism: {
