@@ -32,7 +32,7 @@ const HubspotForm = () => {
       <div className="text-primary flex flex-col items-center justify-center">
         <p>
           <Translate id="formLabel">
-            Undistro is coming. Get early access before we launch.
+            Undistro is coming. Get early access.
           </Translate>
         </p>
       </div>
