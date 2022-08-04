@@ -2,12 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 /* *
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap");
+ @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap');
+ @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap");
 
 /* You can override the default Infima variables here. */
 :root {
@@ -128,6 +131,7 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
 }
 
 .form input.hs-button {
+  font-family: 'Nanum Gothic', sans-serif !important;
   position: absolute;
   display: flex;
   justify-content: center;
@@ -135,10 +139,11 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   right: 0.25rem;
   width: 2rem;
   height: 2rem;
-  color: #191a1d;
+  padding-left: 2px;
+  color: #3d3e47;
   background-color: #deded0;
   border-radius: 100%;
-  font-weight: 900;
+  font-weight: 800;
   cursor: pointer;
   -webkit-animation-duration: 0.75s;
   animation-duration: 0.75s;
