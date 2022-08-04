@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Layout from "@theme/Layout";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import HubspotForm from "../components/HubspotForm";
 import Translate from '@docusaurus/Translate';
+import {FaArrowRight} from "react-icons/fa";
 
 export default function Home() {
+
   return (
     <Layout description="UnDistro is a vanilla, non-opinionated, and open source Kubernetes distribution">
       <main className="bg-dark">

@@ -124,16 +124,26 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   margin: 16px 0px;
   border: 1px solid var(--ifm-default-color);
   box-sizing: border-box;
+  display: flex;
 }
 
 .form input.hs-button {
-  display: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  font-weight: 600;
+  color: #dfded1;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: .2s;
+  letter-spacing: 1px;
+  width: min-content;
 }
 
 .form input.hs-button:hover {
-  background-color: var(--ifm-color-primary);
-  color: #fff;
-  cursor: pointer;
+  text-transform: underline;
+  letter-spacing: 2px;
 }
 
 .form .hs-email input {
@@ -154,7 +164,7 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
 
 .form div.hs_submit.hs-submit {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
 .form div.submitted-message {

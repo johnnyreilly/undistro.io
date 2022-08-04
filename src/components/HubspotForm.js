@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Translate from '@docusaurus/Translate';
+import Translate from "@docusaurus/Translate";
 
 const HubspotForm = () => {
   useEffect(() => {
