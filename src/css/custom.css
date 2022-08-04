@@ -128,22 +128,47 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
 }
 
 .form input.hs-button {
-  text-align: center;
+  position: absolute;
   display: flex;
   justify-content: center;
-  margin: 0;
-  font-weight: 600;
-  color: #dfded1;
-  text-transform: uppercase;
+  top: 2px;
+  right: 0.25rem;
+  width: 2rem;
+  height: 2rem;
+  color: #191a1d;
+  background-color: #deded0;
+  border-radius: 100%;
+  font-weight: 900;
   cursor: pointer;
-  transition: .2s;
-  letter-spacing: 1px;
-  width: min-content;
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
 }
 
 .form input.hs-button:hover {
-  text-transform: underline;
-  letter-spacing: 2px;
+  animation-name: bounce;
+  -moz-animation-name: bounce;
+}
+
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		-webkit-transform: translateX(0);
+		-ms-transform:     translateX(0);
+		transform:         translateX(0)
+	}
+	40% {
+		-webkit-transform: translateX(8px);
+		-ms-transform:     translateX(8px);
+		transform:         translateX(8px)
+	}
+	60% {
+		-webkit-transform: translateX(4px);
+		-ms-transform:     translateX(4px);
+		transform:         translateX(4px)
+	}
 }
 
 .form .hs-email input {
@@ -153,6 +178,7 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   border-bottom: 1px solid #deded0;
   text-align: center;
 }
+
 
 .form .hs-email input:focus {
   outline: none;
@@ -164,7 +190,7 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
 
 .form div.hs_submit.hs-submit {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
 }
 
 .form div.submitted-message {
