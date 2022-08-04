@@ -28,11 +28,10 @@ const HubspotForm = () => {
 
   return (
     <div className="form">
-      <div className="form-text">
-        <p>STAY IN THE LOOP</p>
-        <span>Subscribe to know when we launch</span>
+      <div className="text-primary">
+        <p>Undistro is coming. Get early access before we launch.</p>
       </div>
-      <div id="hubspotForm" />
+      <div className="text-primary" id="hubspotForm" />
     </div>
   );
 };

@@ -39,19 +39,36 @@ const config = {
       }),
     ],
   ],
-
+  plugins: [
+    async function tailwindcss(context, options) {
+      return {
+        name: "docusaurus-tailwindcss",
+        configurePostCss(postcssOptions) {
+          // Appends TailwindCSS and AutoPrefixer.
+          postcssOptions.plugins.push(require("tailwindcss"));
+          postcssOptions.plugins.push(require("autoprefixer"));
+          return postcssOptions;
+        },
+      };
+    },
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      navbar: {
-        logo: {
-          alt: "UnDistro",
-          src: "img/logoUnDistroLight.svg",
-          srcDark: "img/logoUnDistroDark.svg",
-          width: 132,
-        },
-        items: [],
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
       },
+      // navbar: {
+      //   logo: {
+      //     alt: "UnDistro",
+      //     src: "img/logoUnDistroLight.svg",
+      //     srcDark: "img/logoUnDistroDark.svg",
+      //     width: 132,
+      //   },
+      //   items: [],
+      // },
       footer: {
         style: "dark",
         links: [],
