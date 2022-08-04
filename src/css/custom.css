@@ -151,11 +151,14 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   animation-fill-mode: both;
   -webkit-animation-timing-function: ease-in-out;
   animation-timing-function: ease-in-out;
+  transition: .2s;
 }
 
 .form input.hs-button:hover {
-  animation-name: bounce;
-  -moz-animation-name: bounce;
+  /* animation-name: bounce;
+  -moz-animation-name: bounce; */
+  background-color: #fff;
+  transform: scale(1.05);
 }
 
 @keyframes bounce {
