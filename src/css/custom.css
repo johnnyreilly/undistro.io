@@ -7,7 +7,7 @@
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap");
 
 /* You can override the default Infima variables here. */
 :root {
@@ -59,7 +59,15 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
 }
 
 .navbar {
-  display: none;
+  position: absolute;
+  width: 100%;
+  padding: 0 10%;
+  background-color: transparent;
+  --ifm-navbar-link-color: #deded0;
+  --ifm-navbar-link-hover-color: #fff;
+}
+.navbar__items {
+  justify-content: flex-end;
 }
 
 .navbar__logo {
@@ -67,7 +75,7 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
 }
 
 .footer--dark {
-  --ifm-footer-background-color: #290952;
+  --ifm-footer-background-color: transparent;
   background-color: var(--ifm-footer-background-color) !important;
 }
 
@@ -86,8 +94,7 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   position: relative;
 }
 
-
-.form input, .form-text, .form p {
+.form input {
   width: 437px;
   max-width: 80vw;
   background-color: transparent;
@@ -98,7 +105,7 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
 }
 
 .form .form-text {
-  color: #DEDED0;
+  color: #deded0;
 }
 
 .form .form-text p {
@@ -133,14 +140,13 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   font-size: 20px;
   font-family: inherit;
   padding: 8px;
-  border-bottom: 1px solid #DEDED0;
+  border-bottom: 1px solid #deded0;
   text-align: center;
 }
 
 .form .hs-email input:focus {
   outline: none;
 }
-
 
 .form input::placeholder {
   color: #b6babb;
@@ -161,7 +167,6 @@ ul.no-list.hs-error-msgs.inputs-list {
   list-style: none;
   padding-left: 0;
 }
-
 
 .form .hs-email ul {
   display: none !important;

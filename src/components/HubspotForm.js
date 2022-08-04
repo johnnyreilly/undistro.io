@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import Translate from '@docusaurus/Translate';
 
 const HubspotForm = () => {
   useEffect(() => {
@@ -17,7 +18,7 @@ const HubspotForm = () => {
             en: {
               submissionErrors: {
                 MISSING_REQUIRED_FIELDS: "Please complete this required field",
-                BLOCKED_EMAIL: "Email must be formatted correctly"
+                BLOCKED_EMAIL: "Email must be formatted correctly",
               },
             },
           },
@@ -28,8 +29,12 @@ const HubspotForm = () => {
 
   return (
     <div className="form">
-      <div className="text-primary">
-        <p>Undistro is coming. Get early access before we launch.</p>
+      <div className="text-primary flex flex-col items-center justify-center">
+        <p>
+          <Translate id="formLabel">
+            Undistro is coming. Get early access before we launch.
+          </Translate>
+        </p>
       </div>
       <div className="text-primary" id="hubspotForm" />
     </div>
