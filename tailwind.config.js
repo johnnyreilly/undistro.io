@@ -9,7 +9,10 @@ module.exports = {
       colors: {
         primary: "#DEDED0",
         dark: "#290952"
-      }
+      },
+      maxWidth: {
+        container: '80%'
+      },
     },
   },
   plugins: [],
