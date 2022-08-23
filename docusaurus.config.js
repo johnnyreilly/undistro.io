@@ -15,7 +15,6 @@ const config = {
   favicon: "img/favicon.png",
   organizationName: "getupio-undistro", // Usually your GitHub org/user name.
   projectName: "undistro", // Usually your repo name.
-
   presets: [
     [
       "classic",
@@ -39,18 +38,40 @@ const config = {
       }),
     ],
   ],
-
+  plugins: [
+    async function tailwindcss(context, options) {
+      return {
+        name: "docusaurus-tailwindcss",
+        configurePostCss(postcssOptions) {
+          // Appends TailwindCSS and AutoPrefixer.
+          postcssOptions.plugins.push(require("tailwindcss"));
+          postcssOptions.plugins.push(require("autoprefixer"));
+          return postcssOptions;
+        },
+      };
+    },
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: "light",
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      },
       navbar: {
-        logo: {
-          alt: "UnDistro",
-          src: "img/logoUnDistroLight.svg",
-          srcDark: "img/logoUnDistroDark.svg",
-          width: 132,
-        },
-        items: [],
+        // logo: {
+        //   alt: "UnDistro",
+        //   src: "img/logoUnDistroLight.svg",
+        //   srcDark: "img/logoUnDistroDark.svg",
+        //   width: 132,
+        // },
+        items: [
+          {
+            type: 'localeDropdown',
+            position: 'left',
+          },
+        ],
       },
       footer: {
         style: "dark",
@@ -62,6 +83,16 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
+  /** @type {import('@docusaurus/types')} */
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'pt'],
+    localeConfigs: {
+      en: {
+        htmlLang: 'en-GB',
+      },
+    },
+  },
 };
 
 module.exports = config;

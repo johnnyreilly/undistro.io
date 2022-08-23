@@ -1,9 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 /* *
  * Any CSS included here will be global. The classic template
  * bundles Infima by default. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+ @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap');
+ @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;800&display=swap");
 
 /* You can override the default Infima variables here. */
 :root {
@@ -16,12 +22,16 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --ifm-background-color: #efeff4;
-  --ifm-default-color: #191a1d;
+  --ifm-default-color: ##290952;
   --ifm-form-background: #d7d7d7;
 }
 
 html * {
   font-family: "Montserrat", sans-serif !important;
+}
+
+html {
+  background-color: #290952;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -33,7 +43,7 @@ html[data-theme="dark"] {
   --ifm-color-primary-light: #29d5b0;
   --ifm-color-primary-lighter: #32d8b4;
   --ifm-color-primary-lightest: #4fddbf;
-  --ifm-footer-background-color: #191a1d;
+  --ifm-footer-background-color: #290952;
   --ifm-background-color: #191a1d;
   --ifm-default-color: #efeff4;
   --ifm-form-background: #282828;
@@ -50,12 +60,24 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+.navbar {
+  position: absolute;
+  width: 100%;
+  padding: 0 10%;
+  background-color: transparent;
+  --ifm-navbar-link-color: #deded0;
+  --ifm-navbar-link-hover-color: #fff;
+}
+.navbar__items {
+  justify-content: flex-end;
+}
+
 .navbar__logo {
   padding-left: 1rem;
 }
 
 .footer--dark {
-  --ifm-footer-background-color: #191a1d;
+  --ifm-footer-background-color: transparent;
   background-color: var(--ifm-footer-background-color) !important;
 }
 
@@ -65,6 +87,7 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 #hubspotForm {
@@ -73,19 +96,21 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   position: relative;
 }
 
-
-.form input, .form-text, .form p {
+.form input {
   width: 437px;
   max-width: 80vw;
   background-color: transparent;
 }
 
+.form .submitted-message {
+  margin-top: 1rem;
+}
+
 .form .form-text {
-  color: var(--ifm-default-color);
+  color: #deded0;
 }
 
 .form .form-text p {
-  color: var(--ifm-color-primary);
   font-size: 24px;
   line-height: 30px;
   margin: 0;
@@ -101,29 +126,69 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   margin: 16px 0px;
   border: 1px solid var(--ifm-default-color);
   box-sizing: border-box;
+  display: flex;
 }
 
 .form input.hs-button {
-  text-transform: uppercase;
-  width: auto;
-  height: 36px;
-  transition: 0.2s;
-  margin: 0;
-  border-color: var(--ifm-color-primary);
-  background-color: var(--ifm-color-primary);
-  color: #d7d7d7;
+  font-family: 'Nanum Gothic', sans-serif !important;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 2px;
+  right: 0.25rem;
+  width: 2rem;
+  height: 2rem;
+  padding-left: 2px;
+  color: #3d3e47;
+  background-color: #deded0;
+  border-radius: 100%;
+  font-weight: 800;
+  cursor: pointer;
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  transition: .2s;
 }
 
 .form input.hs-button:hover {
-  background-color: var(--ifm-color-primary);
-  color: #fff;
-  cursor: pointer;
+  /* animation-name: bounce;
+  -moz-animation-name: bounce; */
+  background-color: #fff;
+  transform: scale(1.05);
+}
+
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		-webkit-transform: translateX(0);
+		-ms-transform:     translateX(0);
+		transform:         translateX(0)
+	}
+	40% {
+		-webkit-transform: translateX(8px);
+		-ms-transform:     translateX(8px);
+		transform:         translateX(8px)
+	}
+	60% {
+		-webkit-transform: translateX(4px);
+		-ms-transform:     translateX(4px);
+		transform:         translateX(4px)
+	}
 }
 
 .form .hs-email input {
   font-size: 20px;
   font-family: inherit;
   padding: 8px;
+  border-bottom: 1px solid #deded0;
+  text-align: center;
+}
+
+
+.form .hs-email input:focus {
+  outline: none;
 }
 
 .form input::placeholder {
@@ -145,7 +210,6 @@ ul.no-list.hs-error-msgs.inputs-list {
   list-style: none;
   padding-left: 0;
 }
-
 
 .form .hs-email ul {
   display: none !important;
