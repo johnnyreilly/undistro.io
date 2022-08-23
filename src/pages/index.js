@@ -15,7 +15,7 @@ export default function Home() {
           content={translate({
             id: "description",
             message:
-              "Visualize, crie e gerencie um ou mais clusters de forma padronizada e centralizada. Obtenha acesso antecipado ao produto.",
+              "Visualize, create, and manage one or more clusters in a way that is both standardized and centralized. Get early access to this product.",
           })}
         />
       </Head>
