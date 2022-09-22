@@ -4,14 +4,19 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero': "url('/img/background.jpg')",
+        hero: "url('/img/background.jpg')",
       },
       colors: {
-        primary: "#DEDED0",
-        dark: "#290952"
+        primary: "#01C4C3",
+        dark: "#0C1218",
       },
       maxWidth: {
-        container: '80%'
+        container: "80%",
+      },
+      fontFamily: {
+        inter: ["Inter", "sans-serif"],
+        montserrat: ["Montserrat", "sans-serif"],
+        "sf-pro": ["SF Pro Display", "sans-serif"],
       },
     },
   },
