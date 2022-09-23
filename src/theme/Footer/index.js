@@ -2,7 +2,7 @@ import React from "react";
 function Footer() {
   return (
     <footer className="section py-16 text-white w-full space-y-12">
-      <div className="flex flex-row justify-between items-center">
+      <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center space-y-4 lg:space-y-0">
         <div>
           <img src="/img/logo-white.svg" alt="undistro" className="h-4" />
         </div>

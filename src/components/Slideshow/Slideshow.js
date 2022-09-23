@@ -39,6 +39,18 @@ const slides = [
       "Following Undistro's concept of centralized visualization, Zora brings a view of all your clusters, with the main data and number of issues",
     src: "/img/cluster.webp",
   },
+  {
+    title: "Summarized clusters view",
+    description:
+      "Following Undistro's concept of centralized visualization, Zora brings a view of all your clusters, with the main data and number of issues",
+    src: "/img/cluster.webp",
+  },
+  {
+    title: "Summarized clusters view",
+    description:
+      "Following Undistro's concept of centralized visualization, Zora brings a view of all your clusters, with the main data and number of issues",
+    src: "/img/cluster.webp",
+  },
 ];
 
 const swipeConfidenceThreshold = 10000;
@@ -84,7 +96,7 @@ export const SlideShow = () => {
   };
 
   return (
-    <div className="relative h-[720px] w-[1280px] overflow-hidden">
+    <div className="relative mx-auto aspect-video w-full overflow-hidden">
       <AnimatePresence initial={false} custom={direction}>
         <motion.img
           className="max-w-full absolute rounded-2xl"

@@ -4,9 +4,9 @@ import Head from "@docusaurus/Head";
 import Translate, { translate } from "@docusaurus/Translate";
 import { ArrowRight } from "phosphor-react";
 import { SlideShow } from "../components/Slideshow/Slideshow";
-import { Chrono } from "react-chrono";
 import { Timeline } from "../components/Timeline/Timeline";
 import { HubspotForm } from "../components/HubspotForm";
+import { ZoraButton } from "../components/Buttons";
 
 export default function Home() {
   return (
@@ -23,17 +23,17 @@ export default function Home() {
       </Head>
       <main className="bg-dark">
         {/* Hero */}
-        <div className="bg-[url(/img/hero.png)] bg-top bg-cover bg-no-repeat h-screen">
+        <div className="hero">
           <div className="flex flex-col w-full h-full items-center justify-center space-y-6 py-24 section whitespace-pre-line">
-            <h1 className="text-white text-5xl lg:text-6xl font-bold text-center xl:w-2/3 -mt-36">
+            <h1 className="text-white text-5xl lg:text-6xl font-bold text-center xl:w-2/3">
               <Translate id="heading">
                 {"Know your Kubernetes \nclusters inside out"}
               </Translate>
             </h1>
-            <h2 className="text-white text-xl font-light md:w-2/3 text-center">
+            <h2 className="text-white text-2xl font-light md:w-2/3 text-center">
               <Translate id="subtitle">
                 {
-                  "Undistro is an initiative to create products that will help you manage and know \nyour Kubernetes clusters inside out."
+                  "Undistro is an initiative to create products that will help you manage and know your Kubernetes clusters inside out."
                 }
               </Translate>
             </h2>
@@ -41,7 +41,7 @@ export default function Home() {
         </div>
         {/* About Section */}
         <div className="section text-white">
-          <div className="bg-[#101A23] rounded-3xl px-40 py-8 -translate-y-[50%] flex items-center space-x-16">
+          {/* <div className="bg-[#101A23] rounded-3xl px-40 py-8 -translate-y-[50%] flex items-center space-x-16">
             <img
               src="/img/computer.svg"
               className="h-60 2xl:h-max"
@@ -59,14 +59,16 @@ export default function Home() {
                 your Kubernetes environment.
               </p>
             </div>
-          </div>
-          <div className="flex">
-            <div className="flex flex-col py-12 text-4xl space-y-4 font-sf-pro w-1/2">
+          </div> */}
+          <div className="flex flex-col lg:flex-row">
+            <div className="flex flex-col py-12 text-3xl lg:text-4xl space-y-4 font-sf-pro lg:w-1/2">
               <p className="font-bold">
                 Zora is the first product created by Undistro
               </p>
-              <p className="text-primary font-medium">We are in alpha stage!</p>
-              <p className="font-inter text-xl text-white opacity-80">
+              <p className="text-primary text-lg font-medium">
+                We are in alpha stage!
+              </p>
+              <p className="font-inter text-lg lg:text-xl text-white opacity-80">
                 Zora periodically scans all of your Kubernetes clusters, looking
                 for potential issues or vulnerabilities with deployed resources
                 and configurations, helping you ensure compliance with best
@@ -74,25 +76,16 @@ export default function Home() {
                 misconfiguration problems.
               </p>
             </div>
-            <div className="flex flex-1 ml-32 flex-col items-center justify-center space-y-12">
+            <div className="flex flex-1 xl:ml-32 my-16 flex-col items-center justify-center space-y-12">
               <img src="/img/zora.svg" />
-              <a
-                href="#"
-                className="bg-[#0F181F] py-4 px-6 rounded-xl space-x-6 font-semibold font-inter"
-              >
-                <span className="bg-primary text-black py-2 px-6 rounded-lg">
-                  new 0.0.1
-                </span>
-                <span className="">Alpha Release</span>
-                <ArrowRight className="h-6 w-6 inline" />
-              </a>
+              <ZoraButton />
             </div>
           </div>
         </div>
         {/* Main Features */}
         <div className="features py-8">
           <div className="section space-y-8">
-            <h2 className="text-4xl font-sf-pro font-bold text-white text-center">
+            <h2 className="title text-white text-center">
               Zora's main features
             </h2>
             <SlideShow />
@@ -100,15 +93,13 @@ export default function Home() {
         </div>
         {/* Timeline */}
         <div className="section py-32 space-y-8">
-          <h2 className="text-4xl font-sf-pro font-bold text-white text-center">
-            Zora's main features
-          </h2>
+          <h2 className="title text-white text-center">Zora's main features</h2>
           <Timeline />
         </div>
         {/* Zora */}
         <div className="gradient">
           <div className="section py-32 space-y-8 text-center text-white">
-            <h2 className="text-4xl font-sf-pro font-bold ">
+            <h2 className="title ">
               Ready to know your kubernetes inside out?
             </h2>
             <p className="font-inter opacity-80 max-w-3xl mx-auto">
@@ -116,23 +107,12 @@ export default function Home() {
               tool to ensure that your Kubernetes clusters are following the
               best practices, and we’d love to have you in this journey!
             </p>
-            <a
-              href="#"
-              className="inline-block bg-[#0F181F] py-4 px-6 rounded-xl space-x-6 font-semibold font-inter"
-            >
-              <span className="bg-primary text-black py-2 px-6 rounded-lg">
-                new 0.0.1
-              </span>
-              <span className="">Alpha Release</span>
-              <ArrowRight className="h-6 w-6 inline" />
-            </a>
+            <ZoraButton />
           </div>
         </div>
         {/* Community */}
         <div className="section py-32 space-y-8 text-center text-white">
-          <h2 className="text-4xl font-sf-pro font-bold ">
-            Join our community
-          </h2>
+          <h2 className="title ">Join our community</h2>
           <div className="flex bg-[#0D151C] w-fit max-w-full mx-auto rounded-2xl overflow-clip">
             <div className="flex flex-col justify-center space-y-2 lg:space-y-6 bg-[#0D151C] hover:bg-[#0F181F] cursor-pointer duration-200 w-96 p-6 h-40 md:h-56">
               <img className="h-10 lg:h-16" src="/img/github.svg" />
@@ -148,7 +128,9 @@ export default function Home() {
         {/* Newsletter */}
         <div className="newsletter">
           <div>
-            <p className="font-sf-pro font-medium text-3xl">Subscribe newsletter</p>
+            <p className="font-sf-pro font-medium text-3xl">
+              Subscribe newsletter
+            </p>
             <p className="font-inter">
               Stay up to date with the latest developments and releases by
               signing up to our newsletter.

@@ -26,6 +26,20 @@
     @apply max-w-container 2xl:max-w-7xl mx-auto;
   }
 
+  .title {
+    @apply text-3xl lg:text-4xl font-sf-pro font-bold;
+  }
+
+  .hero {
+    @apply bg-inherit bg-[url(/img/hero.png)] bg-cover bg-no-repeat h-screen;
+  }
+
+  .zora-button {
+    animation-delay: 150ms;
+    animation-timing-function: cubic-bezier(0.45, 1.45, 0.8, 1);
+    animation-duration: 200ms;
+  }
+
   .gradient {
     background: linear-gradient(
       90deg,
@@ -42,7 +56,7 @@
       #009192 46.35%,
       #009495 100%
     );
-    @apply section px-14 py-12 rounded-2xl text-white;
+    @apply section px-8 lg:px-14 py-6 lg:py-12 rounded-2xl text-white;
     @apply flex flex-col lg:flex-row justify-center items-center space-y-4 lg:space-y-0 lg:space-x-[10%] 2xl:space-x-[20%];
   }
 
