@@ -29,16 +29,9 @@ const HubspotForm = () => {
 
   return (
     <div className="form">
-      <div className="text-primary flex flex-col items-center justify-center">
-        <p>
-          <Translate id="formLabel">
-            Undistro is coming. Get early access.
-          </Translate>
-        </p>
-      </div>
       <div className="text-primary" id="hubspotForm" />
     </div>
   );
 };
 
-export default HubspotForm;
+export { HubspotForm };

@@ -24,8 +24,21 @@ const variants = {
   },
 };
 
-const images = [
-  "https://d33wubrfki0l68.cloudfront.net/594de66469079c21fc54c14db0591305a1198dd6/3f4b1/static/images/wallpapers/bridge-01@2x.png",
+const images = ["/img/cluster.webp", "/img/cluster.webp", "/img/cluster.webp"];
+
+const slides = [
+  {
+    title: "Summarized clusters view",
+    description:
+      "Following Undistro's concept of centralized visualization, Zora brings a view of all your clusters, with the main data and number of issues",
+    src: "/img/cluster.webp",
+  },
+  {
+    title: "Summarized arley view",
+    description:
+      "Following Undistro's concept of centralized visualization, Zora brings a view of all your clusters, with the main data and number of issues",
+    src: "/img/cluster.webp",
+  },
 ];
 
 const swipeConfidenceThreshold = 10000;
@@ -33,22 +46,50 @@ const swipePower = (offset, velocity) => {
   return Math.abs(offset) * velocity;
 };
 
+function Pagination({ currentPage, setPage }) {
+  return (
+    <AnimateSharedLayout>
+      <div className="dots">
+        {slides.map((page, index) => (
+          <Dot
+            key={page.title}
+            onClick={() => setPage(index)}
+            isSelected={index === currentPage}
+          />
+        ))}
+      </div>
+    </AnimateSharedLayout>
+  );
+}
+
+function Dot({ isSelected, onClick }) {
+  return (
+    <div className="dot-container" onClick={onClick}>
+      <div className="dot">
+        {isSelected && (
+          <motion.div className="dot highlight" layoutId="highlight" />
+        )}
+      </div>
+    </div>
+  );
+}
+
 export const SlideShow = () => {
   const [[page, direction], setPage] = useState([0, 0]);
 
-  const imageIndex = wrap(0, images.length, page);
+  const imageIndex = wrap(0, slides.length, page);
 
   const paginate = (newDirection) => {
     setPage([page + newDirection, newDirection]);
   };
 
   return (
-    <div className="relative h-[80vh] overflow-hidden">
+    <div className="relative h-[720px] w-[1280px] overflow-hidden">
       <AnimatePresence initial={false} custom={direction}>
         <motion.img
-          className="max-w-full absolute"
+          className="max-w-full absolute rounded-2xl"
           key={page}
-          src={images[imageIndex]}
+          src={slides[imageIndex].src}
           custom={direction}
           variants={variants}
           initial="enter"
@@ -72,11 +113,22 @@ export const SlideShow = () => {
           }}
         />
       </AnimatePresence>
-      <div className="next" onClick={() => paginate(1)}>
-        {"‣"}
-      </div>
-      <div className="prev" onClick={() => paginate(-1)}>
-        {"‣"}
+      <div className="absolute bottom-0 left-0 right-0 flex justify-between items-center px-10 py-6">
+        <div className="prev" onClick={() => paginate(-1)}>
+          {"‣"}
+        </div>
+        <div className="flex flex-col z-10 items-center text-center space-y-2">
+          <p className="text-primary text-3xl font-sf-pro font-bold">
+            {slides[imageIndex].title}
+          </p>
+          <p className="text-white opacity-80 text-base font-inter max-w-2xl">
+            {slides[imageIndex].description}
+          </p>
+          <Pagination currentPage={imageIndex} setPage={setPage} />
+        </div>
+        <div className="next" onClick={() => paginate(1)}>
+          {"‣"}
+        </div>
       </div>
     </div>
   );
