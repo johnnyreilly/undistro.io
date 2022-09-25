@@ -11,7 +11,7 @@ export default function NotFound() {
           message: "Page Not Found",
         })}
       />
-      <div className="bg-[#2B2B52]">
+      <div className="bg-dark">
         <div className="mx-auto py-16 md:py-32 max-w-container 2xl:max-w-7xl text-center lg:text-left flex flex-col items-center xl:max-w-7xl max-h-screen justify-center space-y-8 h-screen relative">
           <img className="md:h-2/3" alt="404 - Not Found" src="/img/404.png" />
           <h1 className="text-primary font-light text-lg">
