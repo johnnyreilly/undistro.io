@@ -60,16 +60,22 @@ const config = {
         respectPrefersColorScheme: false,
       },
       navbar: {
-        // logo: {
-        //   alt: "UnDistro",
-        //   src: "img/logoUnDistroLight.svg",
-        //   srcDark: "img/logoUnDistroDark.svg",
-        //   width: 132,
-        // },
+        logo: {
+          alt: "UnDistro",
+          src: "img/logo.svg",
+          srcDark: "img/logoUnDistroDark.svg",
+          width: 132,
+        },
         items: [
+          {to: '/', label: 'Home'},
+          {to: '#zora', label: 'Zora'},
+          {to: '#milestones', label: 'Milestone'},
+          {to: '#community', label: 'Community'},
+          {to: 'contact', label: 'Contact'},
           {
             type: 'localeDropdown',
             position: 'left',
+            
           },
         ],
       },
@@ -90,7 +96,12 @@ const config = {
     localeConfigs: {
       en: {
         htmlLang: 'en-GB',
+        label: 'EN',
       },
+      pt: {
+        htmlLang: 'pt-BR',
+        label: 'PT',
+      }
     },
   },
 };

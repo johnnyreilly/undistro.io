@@ -2,7 +2,6 @@ import React from "react";
 import Layout from "@theme/Layout";
 import Head from "@docusaurus/Head";
 import Translate, { translate } from "@docusaurus/Translate";
-import { ArrowRight } from "phosphor-react";
 import { SlideShow } from "../components/Slideshow/Slideshow";
 import { Timeline } from "../components/Timeline/Timeline";
 import { HubspotForm } from "../components/HubspotForm";
@@ -40,28 +39,9 @@ export default function Home() {
           </div>
         </div>
         {/* About Section */}
-        <div className="section text-white">
-          {/* <div className="bg-[#101A23] rounded-3xl px-40 py-8 -translate-y-[50%] flex items-center space-x-16">
-            <img
-              src="/img/computer.svg"
-              className="h-60 2xl:h-max"
-              alt="undistro"
-            />
-            <div className="space-y-4">
-              <p className="font-bold text-3xl 2xl:text-4xl font-sf-pro">
-                About Undistro
-              </p>
-              <p className="font-medium 2xl:text-xl font-inter leading-5 2xl:leading-7">
-                All Undistro initiatives are premised on a{" "}
-                <span className="text-primary">simple</span>,{" "}
-                <span className="text-primary">standardized</span>, and{" "}
-                <span className="text-primary">centralized</span> way to manage
-                your Kubernetes environment.
-              </p>
-            </div>
-          </div> */}
-          <div className="flex flex-col lg:flex-row">
-            <div className="flex flex-col py-12 text-3xl lg:text-4xl space-y-4 font-sf-pro lg:w-1/2">
+        <div id="zora" className="section text-white">
+          <div className="flex flex-col lg:flex-row py-16">
+            <div className="flex flex-col text-3xl lg:text-4xl space-y-4 font-sf-pro lg:w-1/2">
               <p className="font-bold">
                 Zora is the first product created by Undistro
               </p>
@@ -92,7 +72,7 @@ export default function Home() {
           </div>
         </div>
         {/* Timeline */}
-        <div className="section py-32 space-y-8">
+        <div id="milestones" className="section py-32 space-y-8">
           <h2 className="title text-white text-center">Zora's main features</h2>
           <Timeline />
         </div>
@@ -111,7 +91,10 @@ export default function Home() {
           </div>
         </div>
         {/* Community */}
-        <div className="section py-32 space-y-8 text-center text-white">
+        <div
+          id="community"
+          className="section py-32 space-y-8 text-center text-white"
+        >
           <h2 className="title ">Join our community</h2>
           <div className="flex bg-[#0D151C] w-fit max-w-full mx-auto rounded-2xl overflow-clip">
             <div className="flex flex-col justify-center space-y-2 lg:space-y-6 bg-[#0D151C] hover:bg-[#0F181F] cursor-pointer duration-200 w-96 p-6 h-40 md:h-56">

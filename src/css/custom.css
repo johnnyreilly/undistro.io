@@ -14,6 +14,7 @@
 @layer base {
   html {
     font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
   }
 
   main {
@@ -225,15 +226,44 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
 }
 
 .navbar {
-  position: absolute;
+  position: fixed;
   width: 100%;
   padding: 0 10%;
-  background-color: transparent;
-  --ifm-navbar-link-color: #deded0;
-  --ifm-navbar-link-hover-color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  color: white;
 }
-.navbar__items {
-  justify-content: flex-end;
+
+.navbar__item.dropdown {
+  border: 0.5px solid #7B909D;
+  border-radius: 8px;
+}
+
+.dropdown__menu {
+  min-width: none;
+  background-color: rgba(12, 18, 24, 0.8);
+  backdrop-filter: blur(16px);
+  border: 0.5px solid rgba(255, 255, 255, 0.04);
+  border-radius: 8px;
+}
+
+.navbar__link, .dropdown__menu .dropdown__link:not(.dropdown__link--active) {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar--fixed-top {
+  background-color: rgba(12, 18, 24, 0.08);
+  backdrop-filter: blur(16px);
+}
+
+.navbar--fixed-top.navbar-sidebar--show {
+  backdrop-filter: none;
+}
+
+.navbar-sidebar {
+  width: 100%;
+  backdrop-filter: blur(16px);
+  background-color: rgba(12, 18, 24, 0.08);
+  border-right: 1px solid rgba(255, 255, 255, 0.04);
 }
 
 .navbar__logo {
