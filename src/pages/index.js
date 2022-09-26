@@ -30,10 +30,10 @@ export default function Home() {
               </Translate>
             </h1>
             <h2 className="text-white text-2xl font-light md:w-2/3 text-center">
-              <Translate id="subtitle">
-                {
-                  "Undistro is an initiative to create products that will help you manage and know your Kubernetes clusters inside out."
-                }
+              <Translate id="description">
+                UnDistro is a Getup.io backed initiative to create products that
+                help you manage your Kubernetes environment in a simple and
+                centralized way.
               </Translate>
             </h2>
           </div>
@@ -43,17 +43,13 @@ export default function Home() {
           <div className="flex flex-col lg:flex-row py-16">
             <div className="flex flex-col text-3xl lg:text-4xl space-y-4 font-sf-pro lg:w-1/2">
               <p className="font-bold">
-                Zora is the first product created by Undistro
+                <Translate id="zora.title" />
               </p>
               <p className="text-primary text-lg font-medium">
-                We are in alpha stage!
+                <Translate id="zora.alpha" />
               </p>
               <p className="font-inter text-lg lg:text-xl text-white opacity-80">
-                Zora periodically scans all of your Kubernetes clusters, looking
-                for potential issues or vulnerabilities with deployed resources
-                and configurations, helping you ensure compliance with best
-                practices and preventing security, allocation, and
-                misconfiguration problems.
+                <Translate id="zora.description" />
               </p>
             </div>
             <div className="flex flex-1 xl:ml-32 my-16 flex-col items-center justify-center space-y-12">
@@ -66,15 +62,17 @@ export default function Home() {
         <div className="features py-8">
           <div className="section space-y-8">
             <h2 className="title text-white text-center">
-              Zora's main features
+              <Translate id="zora.features.title" />
             </h2>
             <SlideShow />
           </div>
         </div>
         {/* Timeline */}
-        <div id="milestones" className="section py-32 space-y-8">
+        <div id="milestones" className="py-24 space-y-16">
           <h2 className="title text-white text-center">Zora's main features</h2>
-          <Timeline />
+          <div>
+            <Timeline />
+          </div>
         </div>
         {/* Zora */}
         <div className="gradient">

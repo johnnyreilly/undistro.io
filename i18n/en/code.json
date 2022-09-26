@@ -1,0 +1,108 @@
+{
+  "description": {
+    "message": "UnDistro is a Getup.io backed initiative to create products that help you manage your Kubernetes environment in a simple and centralized way."
+  },
+  "heading": {
+    "message": "Know your Kubernetes \nclusters inside out"
+  },
+  "subtitle": {
+    "message": "UnDistro is a Getup.io backed initiative to create products that help you manage your Kubernetes environment in a simple and centralized way."
+  },
+  "zora.title": {
+    "message": "The first product created by Undistro is Zora."
+  },
+  "zora.description": {
+    "message": "Zora periodically scans all of your Kubernetes clusters, looking for potential issues or vulnerabilities with deployed resources and configurations, helping you ensure compliance with best practices and preventing security, allocation, and misconfiguration problems."
+  },
+  "zora.alpha": {
+    "message": "We are in alpha stage!"
+  },
+  "zora.features.title": {
+    "message": "Zora's main features"
+  },
+  "zora.features.items.0.title": {
+    "message": "Summarized clusters view"
+  },
+  "zora.features.items.0.description": {
+    "message": "Following Undistro's concept of centralized visualization, Zora brings a view of all your clusters, with the main data and number of issues"
+  },
+  "zora.features.items.1.title": {
+    "message": "Issues details and resources affected"
+  },
+  "zora.features.items.1.description": {
+    "message": "Zora shows you all issue details: category, severity, and all affected resources. With this data, you can analize the exact component that you need to fix."
+  },
+  "zora.features.items.2.title": {
+    "message": "Issues all in one"
+  },
+  "zora.features.items.2.description": {
+    "message": "If you prefer, you can view all your issues in a single list, without having to select each cluster."
+  },
+  "zora.features.items.3.title": {
+    "message": "Documentation"
+  },
+  "zora.features.items.3.description": {
+    "message": "If you don’t know why an issue is a problem for your cluster, we present reliable documentation that will help you understand what that vulnerability could cause to your environment."
+  },
+
+  "timeline.items.0.title": {
+    "message": "Released alpha version"
+  },
+  "timeline.items.0.description": {
+    "message": "We’re happy to announce Zora’s first alpha version. It is a working product, but it there’s still a few features missing. Everyone can test it out via our documentation."
+  },
+  "timeline.items.1.title": {
+    "message": "Orientation Guide to solve issues"
+  },
+  "timeline.items.1.description": {
+    "message": "To help you to solve your issues, we are creating a orientation guide that will help you to solve them and avoid bigger problems to your environment."
+  },
+  "timeline.items.2.title": {
+    "message": "Edit Issues"
+  },
+  "timeline.items.2.description": {
+    "message": "Possibility to edit existing issues (enable and disable them, edit criticality, category), allowing the user to customize their dashboard according to what is most relevant to their environment."
+  },
+  "timeline.items.3.title": {
+    "message": "Zora plugin"
+  },
+  "timeline.items.3.description": {
+    "message": "Today we are using Popeye as our only source of vulnerabilities, but we are creating a “Zora” plugin (through Zora syntax), with our own checks, always up to date to the last disclosed k8s vulnerabilities."
+  },
+  "timeline.items.4.title": {
+    "message": "Custom checks"
+  },
+  "timeline.items.4.description": {
+    "message": "Possibility to create your own customized checks, also through the Zora syntax."
+  },
+  "timeline.items.5.title": {
+    "message": "New interactions via UI"
+  },
+  "timeline.items.5.description": {
+    "message": "Connect a cluster, create a new issue, edit settings, environments and issues directly via interface. Let your non-technical colleagues join the party with our friendly and intuitive interface."
+  },
+  "timeline.items.6.title": {
+    "message": "Namespace View"
+  },
+  "timeline.items.6.description": {
+    "message": "Possibility to filter issues that only affect a specific namespace."
+  },
+  "timeline.items.7.title": {
+    "message": "User Control"
+  },
+  "timeline.items.7.description": {
+    "message": "A new version with access control. You’ll be able to share the same dashboard with other people within your team."
+  },
+  "timeline.items.8.title": {
+    "message": "Metrics with Grafana and Prometheus"
+  },
+  "timeline.items.8.description": {
+    "message": "Integration with Grafana and Prometheus for exporting metrics, and visualizing data in a personalized and editable way"
+  },
+    "timeline.items.9.title": {
+        "message": "Release version 1 - beta"
+    },
+    "timeline.items.9.description": {
+        "message": "At that time, we will be ready to release a beta version that will have all the previous features. \nAfter that, the sky's the limit! We will evolve our product with a full focus on the user and on delivering the best solution to ensure that your clusters are always compliant with the best practices."
+    }
+}

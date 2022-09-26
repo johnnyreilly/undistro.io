@@ -1,7 +1,8 @@
-import React, { Fragment } from "react";
-import { useState, useRef } from "react";
+import React from "react";
+import { useState } from "react";
 import { motion, AnimatePresence, AnimateSharedLayout } from "framer-motion";
 import { wrap } from "@popmotion/popcorn";
+import Translate from "@docusaurus/Translate";
 
 const variants = {
   enter: (direction) => {
@@ -24,31 +25,25 @@ const variants = {
   },
 };
 
-const images = ["/img/cluster.webp", "/img/cluster.webp", "/img/cluster.webp"];
-
 const slides = [
   {
-    title: "Summarized clusters view",
-    description:
-      "Following Undistro's concept of centralized visualization, Zora brings a view of all your clusters, with the main data and number of issues",
+    title: <Translate id="zora.features.items.0.title" />,
+    description: <Translate id="zora.features.items.0.description" />,
     src: "/img/cluster.webp",
   },
   {
-    title: "Summarized arley view",
-    description:
-      "Following Undistro's concept of centralized visualization, Zora brings a view of all your clusters, with the main data and number of issues",
+    title: <Translate id="zora.features.items.1.title" />,
+    description: <Translate id="zora.features.items.1.description" />,
     src: "/img/cluster.webp",
   },
   {
-    title: "Summarized clusters view",
-    description:
-      "Following Undistro's concept of centralized visualization, Zora brings a view of all your clusters, with the main data and number of issues",
+    title: <Translate id="zora.features.items.2.title" />,
+    description: <Translate id="zora.features.items.2.description" />,
     src: "/img/cluster.webp",
   },
   {
-    title: "Summarized clusters view",
-    description:
-      "Following Undistro's concept of centralized visualization, Zora brings a view of all your clusters, with the main data and number of issues",
+    title: <Translate id="zora.features.items.3.title" />,
+    description: <Translate id="zora.features.items.3.description" />,
     src: "/img/cluster.webp",
   },
 ];
