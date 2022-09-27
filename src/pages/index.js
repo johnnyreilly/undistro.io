@@ -69,7 +69,9 @@ export default function Home() {
         </div>
         {/* Timeline */}
         <div id="milestones" className="py-24 space-y-16">
-          <h2 className="title text-white text-center">Zora's main features</h2>
+          <h2 className="title text-white text-center">
+            <Translate id="timeline.title" />
+          </h2>
           <div>
             <Timeline />
           </div>
@@ -78,12 +80,10 @@ export default function Home() {
         <div className="gradient">
           <div className="section py-32 space-y-8 text-center text-white">
             <h2 className="title ">
-              Ready to know your kubernetes inside out?
+              <Translate id="alpha.title" />
             </h2>
             <p className="font-inter opacity-80 max-w-3xl mx-auto">
-              Join us and give our alpha version a go. Zora is creating the best
-              tool to ensure that your Kubernetes clusters are following the
-              best practices, and we’d love to have you in this journey!
+              <Translate id="alpha.description" />
             </p>
             <ZoraButton />
           </div>
@@ -93,16 +93,22 @@ export default function Home() {
           id="community"
           className="section py-32 space-y-8 text-center text-white"
         >
-          <h2 className="title ">Join our community</h2>
+          <h2 className="title ">
+            <Translate id="community.title" />
+          </h2>
           <div className="flex bg-[#0D151C] w-fit max-w-full mx-auto rounded-2xl overflow-clip">
             <div className="flex flex-col justify-center space-y-2 lg:space-y-6 bg-[#0D151C] hover:bg-[#0F181F] cursor-pointer duration-200 w-96 p-6 h-40 md:h-56">
               <img className="h-10 lg:h-16" src="/img/github.svg" />
-              <p className="font-inter lg:text-xl">Visit Us</p>
+              <p className="font-inter lg:text-xl">
+                <Translate id="community.github" />
+              </p>
             </div>
             <div className="border border-[#203446] flex-none my-6 lg:my-12" />
             <div className="flex flex-col justify-center space-y-2 lg:space-y-6 bg-[#0D151C] hover:bg-[#0F181F] cursor-pointer duration-200 w-96 p-6 h-40 md:h-56">
               <img className="h-10 lg:h-16" src="/img/slack.svg" />
-              <p className="font-inter lg:text-xl">Join our group</p>
+              <p className="font-inter lg:text-xl">
+                <Translate id="community.slack" />
+              </p>
             </div>
           </div>
         </div>
@@ -110,11 +116,10 @@ export default function Home() {
         <div className="newsletter">
           <div>
             <p className="font-sf-pro font-medium text-3xl">
-              Subscribe newsletter
+              <Translate id="newsletter.title" />
             </p>
             <p className="font-inter">
-              Stay up to date with the latest developments and releases by
-              signing up to our newsletter.
+              <Translate id="newsletter.description" />
             </p>
           </div>
           <div>

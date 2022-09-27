@@ -1,3 +1,4 @@
+import Translate from "@docusaurus/Translate";
 import React from "react";
 function Footer() {
   return (
@@ -7,9 +8,13 @@ function Footer() {
           <img src="/img/logo-white.svg" alt="undistro" className="h-4" />
         </div>
         <div className="flex space-x-4">
-          <a className="cursor-pointer">Contact Us</a>
+          <a className="cursor-pointer">
+            <Translate id="footer.contact" />
+          </a>
           <div className="border border-[#203446] flex-none my-1" />
-          <a className="cursor-pointer">Documentation</a>
+          <a className="cursor-pointer">
+            <Translate id="footer.documentation" />
+          </a>
         </div>
         <div className="flex items-center space-x-4">
           <p className="opacity-60">Social</p>
@@ -27,7 +32,9 @@ function Footer() {
       <div className="space-y-2">
         <p className="opacity-80">Copyright © 2022 UnDistro.</p>
         <p>
-          <span className="opacity-60">Undistro is an initiative to create Kubernetes products, backed by</span>
+          <span className="opacity-60">
+            Undistro is an initiative to create Kubernetes products, backed by
+          </span>
           <a className="text-[#01C4C3]"> Getup.io</a>
         </p>
       </div>

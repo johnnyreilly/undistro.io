@@ -44,7 +44,9 @@
   "zora.features.items.3.description": {
     "message": "If you don’t know why an issue is a problem for your cluster, we present reliable documentation that will help you understand what that vulnerability could cause to your environment."
   },
-
+  "timeline.title": {
+    "message": "Milestones"
+  },
   "timeline.items.0.title": {
     "message": "Released alpha version"
   },
@@ -99,10 +101,40 @@
   "timeline.items.8.description": {
     "message": "Integration with Grafana and Prometheus for exporting metrics, and visualizing data in a personalized and editable way"
   },
-    "timeline.items.9.title": {
-        "message": "Release version 1 - beta"
-    },
-    "timeline.items.9.description": {
-        "message": "At that time, we will be ready to release a beta version that will have all the previous features. \nAfter that, the sky's the limit! We will evolve our product with a full focus on the user and on delivering the best solution to ensure that your clusters are always compliant with the best practices."
-    }
+  "timeline.items.9.title": {
+    "message": "Release version 1 - beta"
+  },
+  "timeline.items.9.description": {
+    "message": "At that time, we will be ready to release a beta version that will have all the previous features. \nAfter that, the sky's the limit! We will evolve our product with a full focus on the user and on delivering the best solution to ensure that your clusters are always compliant with the best practices."
+  },
+  "alpha.title": {
+    "message": "Ready to know your Kubernetes inside out"
+  },
+  "alpha.description": {
+    "message": "Join us and give our alpha version a go. Zora is creating the best tool to ensure that your Kubernetes clusters are following the best practices, and we’d love to have you in this journey!"
+  },
+  "community.title": {
+    "message": "Join our community:"
+  },
+  "community.slack": {
+    "message": "Join our group"
+  },
+  "community.github": {
+    "message": "Visit us"
+  },
+  "newsletter.title": {
+    "message": "Stay up to date"
+  },
+  "newsletter.description": {
+    "message": "Stay up to date with the latest developments and releases by signing up to our newsletter."
+  },
+  "footer.documentation": {
+    "message": "Documentation"
+  },
+  "footer.contact": {
+    "message": "Contact us"
+  },
+  "footer.copyright": {
+    "message": "Undistro is an initiative to create Kubernetes products, backed by Getup.io"
+  }
 }
