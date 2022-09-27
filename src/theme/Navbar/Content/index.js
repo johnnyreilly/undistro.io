@@ -24,7 +24,7 @@ function NavbarItems({ items }) {
 function NavbarContentLayout({ children }) {
   return (
     <div className="navbar__inner">
-      <div className="navbar__items flex justify-between">{children}</div>
+      <div className="navbar__items flex xl:justify-between">{children}</div>
     </div>
   );
 }

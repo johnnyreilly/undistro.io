@@ -13,7 +13,8 @@
 
 @layer base {
   html {
-    font-family: "Montserrat", sans-serif;
+    background-color: #0c1218;
+    font-family: "Inter", sans-serif;
     scroll-behavior: smooth;
   }
 
@@ -35,6 +36,10 @@
     @apply bg-inherit bg-[url(/img/hero.png)] bg-cover bg-no-repeat h-screen;
   }
 
+  .timeline-icon {
+    @apply text-primary w-8 h-8 inline min-w-fit;
+  }
+
   .zora-button {
     animation-delay: 150ms;
     animation-timing-function: cubic-bezier(0.45, 1.45, 0.8, 1);
@@ -48,6 +53,28 @@
       #11202c 54.45%,
       #0d1d2b 100%
     );
+  }
+
+  .contact {
+    @apply pt-40 pb-20 relative overflow-hidden;
+    background: linear-gradient(
+      90deg,
+      #0b151f 0%,
+      #0d151c 50.52%,
+      #0b151f 100%
+    );
+  }
+
+  .contact::before {
+    content: "";
+    position: absolute;
+    width: 580px;
+    height: 580px;
+    right: -214px;
+    top: 26px;
+
+    background: rgba(1, 196, 195, 0.08);
+    filter: blur(124px);
   }
 
   .newsletter {
@@ -139,19 +166,33 @@
     transform: scale(-1);
   }
 
-  .form {
+  .contact-form {
+    @apply bg-[#111B22] p-8 lg:p-12 rounded-3xl text-white text-opacity-70;
+  }
+
+  #contact-form form > div {
+    @apply my-8 space-y-2;
+  }
+
+  .contact-form input.hs-button {
+    @apply bg-primary text-dark;
+  }
+
+  #contact-form input,
+  #contact-form textarea {
+    border-color: #203341;
   }
 
   .form input.hs-button {
     color: #017e7e;
-    @apply bg-white w-fit px-8 py-3 rounded-lg;
+    @apply bg-white w-fit px-8 py-3 rounded-lg cursor-pointer;
   }
 
-  form {
+  #hubspotForm form {
     @apply flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4 relative w-full;
   }
 
-  form label {
+  #hubspotForm form label {
     position: absolute;
     left: 0;
   }
@@ -163,8 +204,9 @@ form input {
   @apply w-full;
 }
 
-.hs-email input {
-  @apply rounded-lg bg-transparent border border-white ring-white focus:outline-none p-4 text-white;
+input,
+textarea:not(.hs-button) {
+  @apply rounded-lg bg-transparent border border-white ring-white focus:outline-none p-4 text-white w-full;
 }
 
 .form input {
@@ -402,11 +444,6 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   box-sizing: border-box;
 }
 
-/* Fonts */
-body {
-  font-family: Roboto;
-}
-
 @media (min-width: 1000px) {
   #timeline .wrapper {
     display: flex;
@@ -435,7 +472,7 @@ body {
   position: relative;
   display: block;
   margin: 10px auto 80px;
-  max-width: 94%;
+  max-width: 100%;
   z-index: 2;
 }
 
@@ -447,13 +484,15 @@ body {
 }
 
 @media (min-width: 480px) {
-  #timeline .timeline-card, .head-card {
+  #timeline .timeline-card,
+  .head-card {
     max-width: 60%;
     box-shadow: 0px 1px 22px 4px rgba(0, 0, 0, 0.07);
   }
 }
 @media (min-width: 720px) {
-  #timeline .timeline-card, .head-card {
+  #timeline .timeline-card,
+  .head-card {
     max-width: 40%;
   }
 }

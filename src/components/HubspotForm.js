@@ -34,4 +34,38 @@ const HubspotForm = () => {
   );
 };
 
+export const ContactForm = () => {
+  useEffect(() => {
+    const script = document.createElement("script");
+
+    script.id = "hs-script-loader";
+    script.src = "https://js.hsforms.net/forms/v2.js";
+    document.body.appendChild(script);
+
+    script.addEventListener(
+      "load",
+      () => {
+        // @ts-ignore
+        if (window.hbspt) {
+          // @ts-ignore
+          window.hbspt.forms.create({
+            region: "na1",
+            portalId: "1910685",
+            formId: "c664c8af-83fd-4e9a-b9f7-03ef52d174fe",
+            target: "#contact-form",
+          });
+        }
+      },
+      { once: true }
+    );
+  }, []);
+
+  return (
+    <div className="contact-form lg:w-1/2 !-mt-48 z-20">
+      <p className="font-sf-pro font-bold mb-12 text-3xl">Send us an e-mail</p>
+      <div id="contact-form" />
+    </div>
+  );
+};
+
 export { HubspotForm };

@@ -136,5 +136,20 @@
   },
   "footer.copyright": {
     "message": "Undistro is an initiative to create Kubernetes products, backed by Getup.io"
+  },
+  "contact.title": {
+    "message": "Contact us"
+  },
+  "contact.line1": {
+    "message": "Thanks for reaching out to us!"
+  },
+  "contact.line2": {
+    "message": "If you have a question, or simply want to get in touch with us, feel free to fill out the form."
+  },
+  "contact.line3": {
+    "message": "We'll try to get back to you as soon as possible."
+  },
+  "contact.line4": {
+    "message": "If you just want to stay up to date with our product, we recommend you to sign up to our newsletter."
   }
 }

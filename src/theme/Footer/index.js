@@ -1,8 +1,22 @@
 import Translate from "@docusaurus/Translate";
 import React from "react";
+import { HubspotForm } from "../../components/HubspotForm";
 function Footer() {
   return (
-    <footer className="section py-16 text-white w-full space-y-12">
+    <footer className="section py-16 text-white w-full space-y-12 z-10">
+      <div className="newsletter">
+        <div>
+          <p className="font-sf-pro font-medium text-3xl">
+            <Translate id="newsletter.title" />
+          </p>
+          <p className="font-inter">
+            <Translate id="newsletter.description" />
+          </p>
+        </div>
+        <div>
+          <HubspotForm />
+        </div>
+      </div>
       <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center space-y-4 lg:space-y-0">
         <div>
           <img src="/img/logo-white.svg" alt="undistro" className="h-4" />

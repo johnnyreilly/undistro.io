@@ -23,8 +23,8 @@ export default function Home() {
       <main className="bg-dark">
         {/* Hero */}
         <div className="hero">
-          <div className="flex flex-col w-full h-full items-center justify-center space-y-6 py-24 section whitespace-pre-line">
-            <h1 className="text-white text-5xl lg:text-6xl font-bold text-center xl:w-2/3">
+          <div className="flex flex-col w-full h-full items-center justify-center space-y-6 py-24 section md:whitespace-pre-line">
+            <h1 className="text-white text-4xl lg:text-6xl font-bold font-montserrat text-center xl:w-2/3">
               <Translate id="heading">
                 {"Know your Kubernetes \nclusters inside out"}
               </Translate>
@@ -68,7 +68,7 @@ export default function Home() {
           </div>
         </div>
         {/* Timeline */}
-        <div id="milestones" className="py-24 space-y-16">
+        <div id="milestones" className="py-24 space-y-16 section md:max-w-full">
           <h2 className="title text-white text-center">
             <Translate id="timeline.title" />
           </h2>
@@ -110,20 +110,6 @@ export default function Home() {
                 <Translate id="community.slack" />
               </p>
             </div>
-          </div>
-        </div>
-        {/* Newsletter */}
-        <div className="newsletter">
-          <div>
-            <p className="font-sf-pro font-medium text-3xl">
-              <Translate id="newsletter.title" />
-            </p>
-            <p className="font-inter">
-              <Translate id="newsletter.description" />
-            </p>
-          </div>
-          <div>
-            <HubspotForm />
           </div>
         </div>
       </main>

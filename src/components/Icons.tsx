@@ -121,4 +121,37 @@ const Podcast = (props: any) => (
   </svg>
 );
 
-export { Mail, Location, Search, Blog, Podcast };
+const Zora = (props: any) => (
+  <svg
+    width={33}
+    height={33}
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+    {...props}
+  >
+    <path
+      opacity={0.9}
+      d="M29 22.73V10.27a1 1 0 0 0-.145-.51 1.04 1.04 0 0 0-.389-.374L17.008 3.132a1.04 1.04 0 0 0-1.016 0L4.534 9.386a1.04 1.04 0 0 0-.39.373 1 1 0 0 0-.144.512v12.458a1 1 0 0 0 .145.512c.093.155.228.284.389.373l11.458 6.254a1.04 1.04 0 0 0 1.016 0l11.458-6.254a1.04 1.04 0 0 0 .39-.373 1 1 0 0 0 .144-.512v0Z"
+      stroke="#01C4C3"
+      strokeWidth={1.5}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="M24 20.422v-7.844a.653.653 0 0 0-.32-.557l-6.875-3.938a.6.6 0 0 0-.61 0L9.32 12.021a.639.639 0 0 0-.32.557v7.844a.654.654 0 0 0 .32.557l6.875 3.938a.601.601 0 0 0 .61 0l6.875-3.938a.638.638 0 0 0 .32-.557v0Z"
+      stroke="#01C4C3"
+      strokeWidth={1.5}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+    <path
+      d="m23.5 12.5-6.934 4-7.066-4M16.5 16.5v8M20 10.5l-3 2-3.5-2M20.5 22v-3.527l1.5-.986 1.5-.987M13.5 22.5v-4.027l-4-1.973"
+      stroke="#01C4C3"
+      strokeWidth={1.5}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+    />
+  </svg>
+);
+
+export { Mail, Location, Search, Blog, Podcast, Zora };
