@@ -12,7 +12,8 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "deploy:prod": "yarn && yarn build && aws s3 rm s3://prod.undistro.io --recursive && aws s3 sync build/ s3://prod.undistro.io --acl public-read && aws cloudfront create-invalidation --distribution-id ED5OGJW3S8DZG --paths '/*' ",
-    "deploy:dev": "yarn && yarn build && aws s3 rm s3://hml.undistro.io --recursive && aws s3 sync build/ s3://hml.undistro.io --acl public-read"
+    "deploy:hml": "yarn && yarn build && aws s3 rm s3://hml.undistro.io --recursive && aws s3 sync build/ s3://hml.undistro.io --acl public-read",
+    "deploy:dev": "yarn && yarn build && aws s3 rm s3://dev.undistro.io --recursive && aws s3 sync build/ s3://dev.undistro.io --acl public-read"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.2.4",
