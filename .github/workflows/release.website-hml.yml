@@ -29,4 +29,4 @@ jobs:
           aws-region: us-east-1
 
       - name: Publish site on hml.undistro.io
-        run: yarn deploy:dev
+        run: yarn deploy:hml
