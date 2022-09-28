@@ -3,7 +3,7 @@ name: HML Website
 on:
   push:
     branches:
-      - dev
+      - hml
 
 jobs:
   build:
