@@ -1,15 +1,155 @@
 {
-  
   "description": {
     "message": "Visualize, crie e gerencie um ou mais clusters de forma padronizada e centralizada. Obtenha acesso antecipado ao produto."
   },
   "heading": {
-    "message": "CONHEÇA SEUS CLUSTERS KUBERNETES COMO A PALMA DA SUA MÃO"
+    "message": "Conheça seus clusters kubernetes como a palma de sua mão"
   },
   "subtitle": {
-    "message": "Visualize, crie e gerencie um ou mais clusters de forma padronizada e centralizada."
+    "message": "A UnDistro é uma iniciativa da Getup.io para criar produtos que vão te ajudar a gerenciar seu ambiente Kubernetes de uma forma simples e centralizada."
   },
-  "formLabel": {
-    "message": "Deixe seu e-email e obtenha acesso antecipado."
+  "zora.title": {
+    "message": "O primeiro produto criado pela Undistro é o Zora."
+  },
+  "zora.description": {
+    "message": "O Zora escaneia periodicamente seus clusters Kubernetes em busca de potenciais problemas ou vulnerabilidades em recursos e configurações implantados, ajudando você a garantir a conformidade com as melhores práticas e evitando problemas de segurança, alocação e má configuração."
+  },
+  "zora.alpha": {
+    "message": "Estamos em versão alpha!"
+  },
+  "zora.features.title": {
+    "message": "Principais funcionalidades"
+  },
+  "zora.features.items.0.title": {
+    "message": "Visualização de clusters de forma centralizada"
+  },
+  "zora.features.items.0.description": {
+    "message": "Seguindo o conceito de visualização centralizada da Undistro, o Zora traz uma visão de todos os seus clusters, com os principais dados e quantidade sumarizada de issues."
+  },
+  "zora.features.items.1.title": {
+    "message": "Detalhamento de issues e recursos afetados"
+  },
+  "zora.features.items.1.description": {
+    "message": "O Zora mostra todos os detalhes das issues: categoria, gravidade e todos os recursos afetados. Com esses dados, você pode analisar o componente exato que precisa corrigir."
+  },
+  "zora.features.items.2.title": {
+    "message": "Visualização centralizada de todas as issues"
+  },
+  "zora.features.items.2.description": {
+    "message": "Se preferir, você pode visualizar de uma forma centralizada todas as issues de todos os clusters, sem precisar selecionar um cluster por vez."
+  },
+  "zora.features.items.3.title": {
+    "message": "Documentação explicativa"
+  },
+  "zora.features.items.3.description": {
+    "message": "Se você não sabe por que uma issue é de fato um problema para seu cluster, apresentamos uma documentação confiável que o ajudará a entender a raiz do problema."
+  },
+  "timeline.title": {
+    "message": "Milestones"
+  },
+  "timeline.items.0.title": {
+    "message": "Versão alpha"
+  },
+  "timeline.items.0.description": {
+    "message": "Estamos felizes em anunciar a primeira versão alpha do Zora. Todos podem testá-la através da nossa documentação. É um produto funcional, porém, por estar em versão alpha, muitas novas funcionalidades ainda estão por vir. Assine nossa newsletter para acompanhar a evolução do produto."
+  },
+  "timeline.items.1.title": {
+    "message": "Guia de orientação para resolução de issues"
+  },
+  "timeline.items.1.description": {
+    "message": "Para ajudá-lo a resolver suas issues, estamos criando um guia de orientação que o ajudará a resolvê-las e evitar maiores problemas no seu ambiente."
+  },
+  "timeline.items.2.title": {
+    "message": "Edição de issues"
+  },
+  "timeline.items.2.description": {
+    "message": "Possibilidade de editar problemas existentes (habilitar, desabilitar, editar criticidade e categoria), permitindo que o usuário personalize seu dashboard de acordo com o que for mais relevante para seu ambiente."
+  },
+  "timeline.items.3.title": {
+    "message": "Zora plugin"
+  },
+  "timeline.items.3.description": {
+    "message": "Hoje usamos o Popeye como nossa única fonte de vulnerabilidades. Como evolução, estamos desenvolvendo um plugin próprio, com nossas próprias verificações atualizadas de acordo com as últimas vulnerabilidades divulgadas."
+  },
+  "timeline.items.4.title": {
+    "message": "Verificações customizadas"
+  },
+  "timeline.items.4.description": {
+    "message": "Possibilidade de criar suas próprias verificações, através da sintaxe própria do Zora."
+  },
+  "timeline.items.5.title": {
+    "message": "Novas interações via UI"
+  },
+  "timeline.items.5.description": {
+    "message": "Conecte um cluster, edite configurações e ambientes diretamente pela interface, crie uma nova issue, ou edite uma existente). Deixe seus colegas não técnicos participarem da festa com nossa interface amigável e intuitiva."
+  },
+  "timeline.items.6.title": {
+    "message": "Visão por Namespace"
+  },
+  "timeline.items.6.description": {
+    "message": "Opção de filtro por namespace (resultando em uma lista de issues que afetam um namespace específico)."
+  },
+  "timeline.items.7.title": {
+    "message": "Controle de usuários"
+  },
+  "timeline.items.7.description": {
+    "message": "Uma nova versão com controle de acesso. Você poderá compartilhar o mesmo painel com outras pessoas da sua equipe."
+  },
+  "timeline.items.8.title": {
+    "message": "Métricas com Grafana e Prometheus"
+  },
+  "timeline.items.8.description": {
+    "message": "Integração com Grafana e Prometheus para exportação de métricas e visualização de dados de forma personalizada e editável."
+  },
+  "timeline.items.9.title": {
+    "message": "Release versão 1 - beta"
+  },
+  "timeline.items.9.description": {
+    "message": "Nesse momento, estaremos prontos para lançar uma versão beta que terá todos os recursos anteriores. \nDepois disso, o céu é o limite! Vamos evoluir nosso produto com foco total no usuário e na entrega da melhor solução para garantir que seus clusters estejam sempre em conformidade com as melhores práticas de configuração."
+  },
+  "alpha.title": {
+    "message": "Pronto para dar o primeiro passo para conhecer seus clusters kubernetes como a palma da sua mão?"
+  },
+  "alpha.description": {
+    "message": "Junte-se a nós na fase alpha do produto. Estamos criando a melhor ferramenta para garantir que seus clusters Kubernetes estejam seguindo as melhores práticas de configuração! Vamos adorar ter você nessa jornada!"
+  },
+  "community.title": {
+    "message": "Junte-se à nossa comunidade"
+  },
+  "community.slack": {
+    "message": "Junte-se ao nosso grupo!"
+  },
+  "community.github": {
+    "message": "Visite-nos!"
+  },
+  "newsletter.title": {
+    "message": "Newsletter"
+  },
+  "newsletter.description": {
+    "message": "Mantenha-se atualizado com os últimos desenvolvimentos e lançamentos assinando nossa newsletter."
+  },
+  "footer.documentation": {
+    "message": "Documentação"
+  },
+  "footer.contact": {
+    "message": "Entre em contato"
+  },
+  "footer.copyright": {
+    "message": "A Undistro é uma iniciativa de criação de produtos para Kubernetes apoiada pela Getup.io"
+  },
+  "contact.title": {
+    "message": "Fale com a UnDistro"
+  },
+  "contact.line1": {
+    "message": "Obrigado por entrar em contato!"
+  },
+  "contact.line2": {
+    "message": "Se tiver alguma dúvida ou simplesmente quiser entrar em contato conosco, fique à vontade para preencher o formulário."
+  },
+  "contact.line3": {
+    "message": "Retornaremos o mais breve possível."
+  },
+  "contact.line4": {
+    "message": "Se deseja apenas se manter atualizado sobre nossas iniciativas e evoluções do produto, inscreva-se em nossa newsletter."
   }
 }

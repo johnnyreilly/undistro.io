@@ -3,7 +3,7 @@ import React from "react";
 import { HubspotForm } from "../../components/HubspotForm";
 function Footer() {
   return (
-    <footer className="section py-16 text-white w-full space-y-12 z-10">
+    <footer className="section py-16 text-white w-full space-y-12 z-10 bg-[#0A1015]">
       <div className="newsletter">
         <div>
           <p className="font-sf-pro font-medium text-3xl">
