@@ -97,19 +97,19 @@ export default function Home() {
             <Translate id="community.title" />
           </h2>
           <div className="flex bg-[#0D151C] w-fit max-w-full mx-auto rounded-2xl overflow-clip">
-            <div className="flex flex-col justify-center space-y-2 lg:space-y-6 bg-[#0D151C] hover:bg-[#0F181F] cursor-pointer duration-200 w-96 p-6 h-40 md:h-56">
+            <a href="https://github.com/getupio-undistro/zora" target="_blank" className="flex flex-col justify-center space-y-2 lg:space-y-6 bg-[#0D151C] hover:bg-[#0F181F] hover:no-underline hover:text-white cursor-pointer transition duration-200 w-96 p-6 h-40 md:h-56">
               <img className="h-10 lg:h-16" src="/img/github.svg" />
               <p className="font-inter lg:text-xl">
                 <Translate id="community.github" />
               </p>
-            </div>
+            </a>
             <div className="border border-[#203446] flex-none my-6 lg:my-12" />
-            <div className="flex flex-col justify-center space-y-2 lg:space-y-6 bg-[#0D151C] hover:bg-[#0F181F] cursor-pointer duration-200 w-96 p-6 h-40 md:h-56">
+            <a className="flex flex-col justify-center space-y-2 lg:space-y-6 bg-[#0D151C] hover:bg-[#0F181F] hover:no-underline hover:text-white cursor-pointer transition duration-200 w-96 p-6 h-40 md:h-56">
               <img className="h-10 lg:h-16" src="/img/slack.svg" />
               <p className="font-inter lg:text-xl">
                 <Translate id="community.slack" />
               </p>
-            </div>
+            </a>
           </div>
         </div>
       </main>

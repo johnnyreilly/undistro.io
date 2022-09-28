@@ -26,19 +26,19 @@ function Footer() {
             <Translate id="footer.contact" />
           </a>
           <div className="border border-[#203446] flex-none my-1" />
-          <a className="cursor-pointer">
+          <a href="https://zora.undistro.io/" target="_blank" className="cursor-pointer">
             <Translate id="footer.documentation" />
           </a>
         </div>
         <div className="flex items-center space-x-4">
           <p className="opacity-60">Social</p>
-          <a className="bg-[#101A23] p-[6px] rounded-lg">
+          <a className="bg-[#101A23] hover:scale-105 cursor-pointer transition duration-150 ease-in-out p-[6px] rounded-lg">
             <img src="/img/social-github.svg" alt="Github" className="h-8" />
           </a>
-          <a className="bg-[#101A23] p-[6px] rounded-lg">
+          <a className="bg-[#101A23] hover:scale-105 cursor-pointer transition duration-150 ease-in-out p-[6px] rounded-lg">
             <img src="/img/social-slack.svg" alt="Slack" className="h-8" />
           </a>
-          <a className="bg-[#101A23] p-[6px] rounded-lg">
+          <a className="bg-[#101A23] hover:scale-105 cursor-pointer transition duration-150 ease-in-out p-[6px] rounded-lg">
             <img src="/img/social-twitter.svg" alt="Twitter" className="h-8" />
           </a>
         </div>
