@@ -127,7 +127,6 @@
     z-index: 1;
   }
 
-<<<<<<< HEAD
   .dot {
     @apply h-3 w-3 rounded relative bg-dark bg-opacity-50 lg:bg-opacity-100 lg:bg-[#373A3E];
   }
@@ -136,26 +135,15 @@
     @apply bg-primary;
   }
 
-=======
->>>>>>> f7dbf316 (New UnDistro Website (#48))
   .dot-container {
     padding: 20px;
     cursor: pointer;
   }
 
-<<<<<<< HEAD
   .slideshow__label {
     /* @apply absolute bottom-0; */
     @apply absolute bottom-0 left-0 right-0 flex justify-between items-center px-10 py-6;
     @apply bottom-16 sm:bottom-0 lg:bottom-16 md:section
-=======
-  .dot {
-    @apply h-3 w-3 rounded relative bg-[#373A3E];
-  }
-
-  .dot.highlight {
-    @apply bg-primary;
->>>>>>> f7dbf316 (New UnDistro Website (#48))
   }
 
   .next,
@@ -173,7 +161,6 @@
     font-weight: bold;
     font-size: 18px;
     z-index: 2;
-<<<<<<< HEAD
     @apply flex-1 lg:flex-none;
     @apply absolute -bottom-8 sm:bottom-8 lg:bottom-0 lg:relative;
   }
@@ -184,16 +171,6 @@
 
   .prev {
     @apply left-1/4 md:left-[10px];
-=======
-  }
-
-  .next {
-    right: 10px;
-  }
-
-  .prev {
-    left: 10px;
->>>>>>> f7dbf316 (New UnDistro Website (#48))
     transform: scale(-1);
   }
 
@@ -317,7 +294,6 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   backdrop-filter: blur(16px);
   border: 0.5px solid rgba(255, 255, 255, 0.04);
   border-radius: 8px;
-<<<<<<< HEAD
 }
 
 .navbar__link,
@@ -334,24 +310,6 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   backdrop-filter: none;
 }
 
-=======
-}
-
-.navbar__link,
-.dropdown__menu .dropdown__link:not(.dropdown__link--active) {
-  color: rgba(255, 255, 255, 0.7);
-}
-
-.navbar--fixed-top {
-  background-color: rgba(12, 18, 24, 0.08);
-  backdrop-filter: blur(16px);
-}
-
-.navbar--fixed-top.navbar-sidebar--show {
-  backdrop-filter: none;
-}
-
->>>>>>> f7dbf316 (New UnDistro Website (#48))
 .navbar-sidebar {
   width: 100%;
   backdrop-filter: blur(16px);
