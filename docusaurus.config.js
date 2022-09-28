@@ -68,9 +68,9 @@ const config = {
         },
         items: [
           {to: '/', label: 'Home'},
-          {to: '#zora', label: 'Zora'},
-          {to: '#milestones', label: 'Milestone'},
-          {to: '#community', label: 'Community'},
+          {to: '/#zora', label: 'Zora'},
+          {to: '/#milestones', label: 'Milestones'},
+          {to: '/#community', label: 'Community'},
           {to: 'contact', label: 'Contact'},
           {
             type: 'localeDropdown',

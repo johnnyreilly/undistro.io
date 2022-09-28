@@ -1,8 +1,9 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { useState } from "react";
 import { motion, AnimatePresence, AnimateSharedLayout } from "framer-motion";
 import { wrap } from "@popmotion/popcorn";
 import Translate from "@docusaurus/Translate";
+import { ArrowRight } from "phosphor-react";
 
 const variants = {
   enter: (direction) => {
@@ -60,7 +61,7 @@ function Pagination({ currentPage, setPage }) {
         {slides.map((page, index) => (
           <Dot
             key={page.title}
-            onClick={() => setPage(index)}
+            onClick={() => setPage([index, currentPage - index])}
             isSelected={index === currentPage}
           />
         ))}
@@ -91,52 +92,56 @@ export const SlideShow = () => {
   };
 
   return (
-    <div className="relative mx-auto aspect-video w-full overflow-hidden">
-      <AnimatePresence initial={false} custom={direction}>
-        <motion.img
-          className="max-w-full absolute rounded-2xl"
-          key={page}
-          src={slides[imageIndex].src}
-          custom={direction}
-          variants={variants}
-          initial="enter"
-          animate="center"
-          exit="exit"
-          transition={{
-            x: { type: "spring", stiffness: 300, damping: 30 },
-            opacity: { duration: 0.2 },
-          }}
-          drag="x"
-          dragConstraints={{ left: 0, right: 0 }}
-          dragElastic={1}
-          onDragEnd={(e, { offset, velocity }) => {
-            const swipe = swipePower(offset.x, velocity.x);
+    <Fragment>
+      <div className="relative mx-auto aspect-video w-full overflow-hidden">
+        <AnimatePresence initial={false} custom={direction}>
+          <motion.img
+            className="max-w-full absolute rounded-2xl"
+            key={page}
+            src={slides[imageIndex].src}
+            custom={direction}
+            variants={variants}
+            initial="enter"
+            animate="center"
+            exit="exit"
+            transition={{
+              x: { type: "spring", stiffness: 300, damping: 30 },
+              opacity: { duration: 0.2 },
+            }}
+            drag="x"
+            dragConstraints={{ left: 0, right: 0 }}
+            dragElastic={1}
+            onDragEnd={(e, { offset, velocity }) => {
+              const swipe = swipePower(offset.x, velocity.x);
 
-            if (swipe < -swipeConfidenceThreshold) {
-              paginate(1);
-            } else if (swipe > swipeConfidenceThreshold) {
-              paginate(-1);
-            }
-          }}
-        />
-      </AnimatePresence>
-      <div className="absolute bottom-0 left-0 right-0 flex justify-between items-center px-10 py-6">
-        <div className="prev" onClick={() => paginate(-1)}>
-          {"‣"}
-        </div>
-        <div className="flex flex-col z-10 items-center text-center space-y-2">
-          <p className="text-primary text-3xl font-sf-pro font-bold">
-            {slides[imageIndex].title}
-          </p>
-          <p className="text-white opacity-80 text-base font-inter max-w-2xl">
-            {slides[imageIndex].description}
-          </p>
-          <Pagination currentPage={imageIndex} setPage={setPage} />
-        </div>
-        <div className="next" onClick={() => paginate(1)}>
-          {"‣"}
+              if (swipe < -swipeConfidenceThreshold) {
+                paginate(1);
+              } else if (swipe > swipeConfidenceThreshold) {
+                paginate(-1);
+              }
+            }}
+          />
+        </AnimatePresence>
+      </div>
+      <div className="section py-36 sm:py-28 md:py-20 lg:py-0">
+        <div className="slideshow__label ">
+          <div className="prev" onClick={() => paginate(-1)}>
+            <ArrowRight />
+          </div>
+          <div className="flex flex-col z-10 items-center text-center space-y-2">
+            <p className="text-primary text-2xl md:text-3xl font-sf-pro font-bold">
+              {slides[imageIndex].title}
+            </p>
+            <p className="text-white opacity-80 text-sm md:text-base font-inter max-w-2xl">
+              {slides[imageIndex].description}
+            </p>
+            <Pagination currentPage={imageIndex} setPage={setPage} />
+          </div>
+          <div className="next" onClick={() => paginate(1)}>
+            <ArrowRight />
+          </div>
         </div>
       </div>
-    </div>
+    </Fragment>
   );
 };
