@@ -68,9 +68,15 @@ const config = {
         },
         items: [
           {to: '/', label: 'Home'},
+<<<<<<< HEAD
           {to: '/#zora', label: 'Zora'},
           {to: '/#milestones', label: 'Milestones'},
           {to: '/#community', label: 'Community'},
+=======
+          {to: '#zora', label: 'Zora'},
+          {to: '#milestones', label: 'Milestone'},
+          {to: '#community', label: 'Community'},
+>>>>>>> f7dbf316 (New UnDistro Website (#48))
           {to: 'contact', label: 'Contact'},
           {
             type: 'localeDropdown',
