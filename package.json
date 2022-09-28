@@ -16,7 +16,6 @@
     "deploy:dev": "yarn && yarn build && aws s3 rm s3://dev.undistro.io --recursive && aws s3 sync build/ s3://dev.undistro.io --acl public-read"
   },
   "dependencies": {
-    "@chakra-ui/react": "^2.2.4",
     "@docusaurus/core": "2.0.1",
     "@docusaurus/preset-classic": "2.0.1",
     "@emotion/react": "^11.10.0",
@@ -24,7 +23,6 @@
     "@mdx-js/react": "^1.6.22",
     "@popmotion/popcorn": "^0.4.4",
     "autoprefixer": "^10.4.8",
-    "clsx": "^1.2.1",
     "docusaurus": "^1.14.7",
     "framer-motion": "^7.3.6",
     "phosphor-react": "^1.4.1",
