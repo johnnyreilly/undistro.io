@@ -62,6 +62,17 @@ function Footer() {
                 className="h-8"
               />
             </a>
+            <a
+              href="https://www.instagram.com/undistro.io/"
+              target="_blank"
+              className="bg-[#101A23] hover:scale-105 cursor-pointer transition duration-150 ease-in-out p-[6px] rounded-lg"
+            >
+              <img
+                src="/img/social-instagram.svg"
+                alt="Twitter"
+                className="h-8"
+              />
+            </a>
           </div>
         </div>
         <div className="space-y-2">

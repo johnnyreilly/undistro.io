@@ -25,16 +25,10 @@ export default function Home() {
         <div className="hero" id="home">
           <div className="flex flex-col w-full h-full items-center justify-center space-y-6 py-24 section md:whitespace-pre-line">
             <h1 className="heading">
-              <Translate id="heading">
-                {"Know your Kubernetes \nclusters inside out"}
-              </Translate>
+              <Translate id="heading" />
             </h1>
             <h2 className="text-white text-2xl font-light md:w-2/3 text-center">
-              <Translate id="description">
-                UnDistro is a Getup.io backed initiative to create products that
-                help you manage your Kubernetes environment in a simple and
-                centralized way.
-              </Translate>
+              <Translate id="description" />
             </h2>
           </div>
         </div>
