@@ -22,7 +22,7 @@ export default function Home() {
       </Head>
       <main className="bg-dark">
         {/* Hero */}
-        <div className="hero">
+        <div className="hero" id="home">
           <div className="flex flex-col w-full h-full items-center justify-center space-y-6 py-24 section md:whitespace-pre-line">
             <h1 className="heading">
               <Translate id="heading">

@@ -67,7 +67,7 @@ const config = {
           width: 132,
         },
         items: [
-          {to: '/', label: 'Home'},
+          {to: '/#home', label: 'Home'},
           {to: '/#zora', label: 'Zora'},
           {to: '/#milestones', label: 'Milestones'},
           {to: '/#community', label: 'Community'},
