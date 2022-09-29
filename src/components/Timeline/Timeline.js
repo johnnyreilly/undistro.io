@@ -66,11 +66,11 @@ const cards = [
 
 const TimelineCard = ({ title, icon, description }) => {
   return (
-    <div className="timeline-card">
+    <div className="timeline-card transition">
       <div className="group bg-[#0F181F] hover:bg-[#121D27] duration-200 px-10 py-8 text-white rounded-2xl space-y-4">
         <div className="font-sf-pro text-2xl font-bold text-white duration-200 flex flex-col space-y-2 lg:space-y-0 lg:space-x-2 lg:flex-row items-start">
           {icon}
-          <span className="inline my-auto">{title}</span>
+          <span className="inline my-auto group-hover:text-primary duration-200">{title}</span>
         </div>
         <p className="font-inter opacity-70">{description}</p>
       </div>
