@@ -13,7 +13,7 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.png",
-  organizationName: "getupio-undistro", // Usually your GitHub org/user name.
+  organizationName: "undistro", // Usually your GitHub org/user name.
   projectName: "undistro", // Usually your repo name.
   presets: [
     [
@@ -24,13 +24,13 @@ const config = {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
           editUrl:
-            "https://github.com/getupio-undistro/undistro/tree/main/website/",
+            "https://github.com/undistro/undistro/tree/main/website/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/getupio-undistro/undistro/tree/main/website/",
+            "https://github.com/undistro/undistro/tree/main/website/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),

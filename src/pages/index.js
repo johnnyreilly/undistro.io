@@ -98,7 +98,7 @@ export default function Home() {
           </h2>
           <div className="flex bg-[#0D151C] w-fit max-w-full mx-auto rounded-2xl overflow-clip">
             <a
-              href="https://github.com/getupio-undistro/zora"
+              href="https://github.com/undistro/zora"
               target="_blank"
               className="group flex flex-col justify-center space-y-2 lg:space-y-6 bg-[#0D151C] hover:bg-[#0F181F] hover:no-underline hover:text-white cursor-pointer transition duration-200 w-96 p-6 h-40 md:h-56"
             >
