@@ -22,7 +22,7 @@
     "@emotion/styled": "^11.10.4",
     "@mdx-js/react": "^1.6.22",
     "@popmotion/popcorn": "^0.4.4",
-    "autoprefixer": "^10.4.8",
+    "autoprefixer": "^10.4.12",
     "docusaurus": "^1.14.7",
     "framer-motion": "^7.3.6",
     "phosphor-react": "^1.4.1",
