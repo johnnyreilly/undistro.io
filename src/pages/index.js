@@ -24,7 +24,7 @@ export default function Home() {
         {/* Hero */}
         <div className="hero">
           <div className="flex flex-col w-full h-full items-center justify-center space-y-6 py-24 section md:whitespace-pre-line">
-            <h1 className="text-white text-4xl lg:text-6xl font-bold font-montserrat text-center xl:w-2/3">
+            <h1 className="heading">
               <Translate id="heading">
                 {"Know your Kubernetes \nclusters inside out"}
               </Translate>
@@ -41,14 +41,14 @@ export default function Home() {
         {/* About Section */}
         <div id="zora" className="section text-white">
           <div className="flex flex-col lg:flex-row py-16">
-            <div className="flex flex-col text-3xl lg:text-4xl space-y-4 font-sf-pro lg:w-1/2">
-              <p className="font-bold">
+            <div className="flex flex-col text-3xl lg:text-4xl space-y-4 font-sf-pro lg:w-1/2 ">
+              <p className="font-bold tracking-[0.04em] leading-[120%]">
                 <Translate id="zora.title" />
               </p>
-              <p className="text-primary text-lg font-medium">
+              <p className="text-primary font-bold tracking-[0.04em] leading-[120%]">
                 <Translate id="zora.alpha" />
               </p>
-              <p className="font-inter text-lg lg:text-xl text-white opacity-80">
+              <p className="font-inter text-lg lg:text-xl text-white opacity-80 ">
                 <Translate id="zora.description" />
               </p>
             </div>
@@ -97,16 +97,20 @@ export default function Home() {
             <Translate id="community.title" />
           </h2>
           <div className="flex bg-[#0D151C] w-fit max-w-full mx-auto rounded-2xl overflow-clip">
-            <a href="https://github.com/getupio-undistro/zora" target="_blank" className="flex flex-col justify-center space-y-2 lg:space-y-6 bg-[#0D151C] hover:bg-[#0F181F] hover:no-underline hover:text-white cursor-pointer transition duration-200 w-96 p-6 h-40 md:h-56">
+            <a
+              href="https://github.com/undistro/zora"
+              target="_blank"
+              className="group flex flex-col justify-center space-y-2 lg:space-y-6 bg-[#0D151C] hover:bg-[#0F181F] hover:no-underline hover:text-white cursor-pointer transition duration-200 w-96 p-6 h-40 md:h-56"
+            >
               <img className="h-10 lg:h-16" src="/img/github.svg" />
-              <p className="font-inter lg:text-xl">
+              <p className="font-inter lg:text-xl opacity-80 group-hover:opacity-100">
                 <Translate id="community.github" />
               </p>
             </a>
             <div className="border border-[#203446] flex-none my-6 lg:my-12" />
-            <a className="flex flex-col justify-center space-y-2 lg:space-y-6 bg-[#0D151C] hover:bg-[#0F181F] hover:no-underline hover:text-white cursor-pointer transition duration-200 w-96 p-6 h-40 md:h-56">
+            <a className="group flex flex-col justify-center space-y-2 lg:space-y-6 bg-[#0D151C] hover:bg-[#0F181F] hover:no-underline hover:text-white cursor-pointer transition duration-200 w-96 p-6 h-40 md:h-56">
               <img className="h-10 lg:h-16" src="/img/slack.svg" />
-              <p className="font-inter lg:text-xl">
+              <p className="font-inter lg:text-xl opacity-80 group-hover:opacity-100">
                 <Translate id="community.slack" />
               </p>
             </a>

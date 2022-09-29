@@ -61,7 +61,7 @@ export const ContactForm = () => {
   }, []);
 
   return (
-    <div className="contact-form lg:w-1/2 !-mt-48 z-20">
+    <div className="contact-form lg:w-1/2 lg:!-mt-48 z-20">
       <p className="font-sf-pro font-bold mb-12 text-3xl">Send us an e-mail</p>
       <div id="contact-form" />
     </div>

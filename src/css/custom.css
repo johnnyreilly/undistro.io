@@ -32,6 +32,12 @@
     @apply text-3xl lg:text-4xl font-sf-pro font-bold;
   }
 
+  .heading {
+    @apply text-white text-4xl lg:text-6xl font-bold font-montserrat text-center;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+  }
+
   .hero {
     @apply bg-inherit bg-[url(/img/hero.png)] bg-cover bg-no-repeat h-screen;
   }
@@ -143,7 +149,7 @@
   .slideshow__label {
     /* @apply absolute bottom-0; */
     @apply absolute bottom-0 left-0 right-0 flex justify-between items-center px-10 py-6;
-    @apply bottom-16 sm:bottom-0 lg:bottom-16 md:section
+    @apply bottom-16 sm:bottom-0 lg:bottom-16 md:section;
   }
 
   .next,
@@ -210,6 +216,14 @@
 .hs-email,
 form input {
   @apply w-full;
+}
+
+form .hs-main-font-element {
+  display: none;
+}
+
+form .hs-error-msg {
+  @apply text-left block text-sm my-1 lg:my-0;
 }
 
 input,
@@ -283,7 +297,15 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   color: white;
 }
 
+.menu__link {
+  @apply text-white text-opacity-80 px-6 py-2;
+}
+.navbar__item:not(.dropdown) {
+  @apply px-6 py-2 text-sm font-medium;
+}
+
 .navbar__item.dropdown {
+  @apply text-sm px-4 py-2;
   border: 0.5px solid #7b909d;
   border-radius: 8px;
 }
@@ -315,6 +337,10 @@ html[data-theme="dark"] .docusaurus-highlight-code-line {
   backdrop-filter: blur(16px);
   background-color: rgba(12, 18, 24, 0.08);
   border-right: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.navbar-sidebar__back {
+  display: none;
 }
 
 .navbar__logo {
