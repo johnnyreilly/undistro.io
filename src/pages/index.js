@@ -40,7 +40,7 @@ export default function Home() {
         </div>
         {/* About Section */}
         <div id="zora" className="section text-white">
-          <div className="flex flex-col lg:flex-row py-16">
+          <div className="flex flex-col lg:flex-row py-32">
             <div className="flex flex-col text-3xl lg:text-4xl space-y-4 font-sf-pro lg:w-1/2 ">
               <p className="font-bold tracking-[0.04em] leading-[120%]">
                 <Translate id="zora.title" />
