@@ -6,34 +6,34 @@
     "message": "Get to know your Kubernetes \nclusters inside out"
   },
   "subtitle": {
-    "message": "UnDistro is a Getup.io backed initiative to create products that help you manage your Kubernetes environment in a simple and centralized way."
+    "message": "UnDistro is an initiative backed by Getup.io to create products that will help you manage your Kubernetes environment in a simple and centralized way."
   },
   "zora.title": {
-    "message": "The first product created by Undistro is Zora."
+    "message": "The first product launched by Undistro is Zora."
   },
   "zora.description": {
-    "message": "Zora periodically scans all of your Kubernetes clusters, looking for potential issues or vulnerabilities with deployed resources and configurations, helping you ensure compliance with best practices and preventing security, allocation, and misconfiguration problems."
+    "message": "Zora scans all of your Kubernetes clusters periodically, searching for potential issues or vulnerabilities in deployed resources and configurations, helping to make sure you are in compliance with best practices and also to avoid problems regarding security, allocation, and misconfiguration."
   },
   "zora.alpha": {
     "message": "We are in alpha stage!"
   },
   "zora.features.title": {
-    "message": "Zora's main features"
+    "message": "Main features of Zora"
   },
   "zora.features.items.0.title": {
-    "message": "Summarized clusters view"
+    "message": "Centralized visualization of clusters"
   },
   "zora.features.items.0.description": {
-    "message": "Following Undistro's concept of centralized visualization, Zora brings a view of all your clusters, with the main data and number of issues"
+    "message": "Zora brings a centralized visualization of all your clusters, with the main data and number of issues"
   },
   "zora.features.items.1.title": {
     "message": "Issues details and resources affected"
   },
   "zora.features.items.1.description": {
-    "message": "Zora shows you all issue details: category, severity, and all affected resources. With this data, you can analize the exact component that you need to fix."
+    "message": "Zora shows you several details of the issue: category, severity, and all resources affected. With this data, you can analyze the exact component that needs to be fixed."
   },
   "zora.features.items.2.title": {
-    "message": "Issues all in one"
+    "message": "Centralized visualization of all the issues"
   },
   "zora.features.items.2.description": {
     "message": "If you prefer, you can view all your issues in a single list, without having to select each cluster."
@@ -42,58 +42,58 @@
     "message": "Documentation"
   },
   "zora.features.items.3.description": {
-    "message": "If you don’t know why an issue is a problem for your cluster, we present reliable documentation that will help you understand what that vulnerability could cause to your environment."
+    "message": "If you don’t know why an issue is in fact a problem for your cluster, we present reliable documentation that will help you understand the root of the problem."
   },
   "timeline.title": {
     "message": "Milestones"
   },
   "timeline.items.0.title": {
-    "message": "Released alpha version"
+    "message": "Alpha version is released!"
   },
   "timeline.items.0.description": {
-    "message": "We’re happy to announce Zora’s first alpha version. It is a working product, but it there’s still a few features missing. Everyone can test it out via our documentation."
+    "message": "We’re pleased to announce the first Alpha version of Zora. It is a working product, but still missing a few features. Everyone can test it out via our documentation."
   },
   "timeline.items.1.title": {
-    "message": "Orientation Guide to solve issues"
+    "message": "Orientation Guide to fix issues"
   },
   "timeline.items.1.description": {
-    "message": "To help you to solve your issues, we are creating a orientation guide that will help you to solve them and avoid bigger problems to your environment."
+    "message": "To help you to solve your clusters issues, we are creating a orientation guide that will help you in solving them and to avoid bigger problems in your environment."
   },
   "timeline.items.2.title": {
     "message": "Edit Issues"
   },
   "timeline.items.2.description": {
-    "message": "Possibility to edit existing issues (enable and disable them, edit criticality, category), allowing the user to customize their dashboard according to what is most relevant to their environment."
+    "message": "Possibility to edit existing issues (enable and disable them, edit criticality, category), allowing you to customize their dashboard according to what is most relevant for your environment."
   },
   "timeline.items.3.title": {
     "message": "Zora plugin"
   },
   "timeline.items.3.description": {
-    "message": "Today we are using Popeye as our only source of vulnerabilities, but we are creating a “Zora” plugin (through Zora syntax), with our own checks, always up to date to the last disclosed k8s vulnerabilities."
+    "message": "Today we use Popeye as our only source of vulnerabilities, but we are creating a “Zora” plugin (through Zora syntax), with our own verifications, always up to date with the latest known Kubernetes vulnerabilities."
   },
   "timeline.items.4.title": {
     "message": "Custom checks"
   },
   "timeline.items.4.description": {
-    "message": "Possibility to create your own customized checks, also through the Zora syntax."
+    "message": "Possibility to create your own customized checks, via the Zora syntax."
   },
   "timeline.items.5.title": {
     "message": "New interactions via UI"
   },
   "timeline.items.5.description": {
-    "message": "Connect a cluster, create a new issue, edit settings, environments and issues directly via interface. Let your non-technical colleagues join the party with our friendly and intuitive interface."
+    "message": "Connect a cluster, edit setting, create a new issue or edit an existing one directly via interface. Let your not-so-technical colleagues join the party with our friendly and intuitive interface."
   },
   "timeline.items.6.title": {
     "message": "Namespace View"
   },
   "timeline.items.6.description": {
-    "message": "Possibility to filter issues that only affect a specific namespace."
+    "message": "Possibility to filter issues that only affect a specific namespace"
   },
   "timeline.items.7.title": {
     "message": "User Control"
   },
   "timeline.items.7.description": {
-    "message": "A new version with access control. You’ll be able to share the same dashboard with other people within your team."
+    "message": "A new version with access control. You’ll be able to share the same dashboard with other people within your team"
   },
   "timeline.items.8.title": {
     "message": "Metrics with Grafana and Prometheus"
@@ -105,16 +105,16 @@
     "message": "Release version 1 - beta"
   },
   "timeline.items.9.description": {
-    "message": "At that time, we will be ready to release a beta version that will have all the previous features. \nAfter that, the sky's the limit! We will evolve our product with a full focus on the user and on delivering the best solution to ensure that your clusters are always compliant with the best practices."
+    "message": "At that time, we will be ready to release a beta version that will include all the previous features. \nAfter that, the sky's the limit! We’ll evolve our product with full focus on the user and on delivering the best solution to ensure that your clusters are always in compliance with the best practices."
   },
   "alpha.title": {
-    "message": "Ready to know your Kubernetes inside out"
+    "message": "Ready to know your Kubernetes clusters inside out?"
   },
   "alpha.description": {
-    "message": "Join us and give our alpha version a go. Zora is creating the best tool to ensure that your Kubernetes clusters are following the best practices, and we’d love to have you in this journey!"
+    "message": "Join us and give our alpha version a go. Zora is creating the best tool to ensure that your Kubernetes clusters are following the best practices, and we’d love to have you along on this journey!"
   },
   "community.title": {
-    "message": "Join our community:"
+    "message": "Join our community"
   },
   "community.slack": {
     "message": "Join our group"
@@ -144,12 +144,12 @@
     "message": "Thanks for reaching out to us!"
   },
   "contact.line2": {
-    "message": "If you have a question, or simply want to get in touch with us, feel free to fill out the form."
+    "message": "If you have any question, or simply want to get in touch with us, feel free to fill this form out."
   },
   "contact.line3": {
     "message": "We'll try to get back to you as soon as possible."
   },
   "contact.line4": {
-    "message": "If you just want to stay up to date with our product, we recommend you to sign up to our newsletter."
+    "message": "If you just want to stay up to date with our product, we recommend that you sign up for our newsletter."
   }
 }

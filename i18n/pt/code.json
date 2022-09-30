@@ -6,10 +6,10 @@
     "message": "Conheça seus clusters Kubernetes como a palma de sua mão"
   },
   "subtitle": {
-    "message": "A UnDistro é uma iniciativa da Getup.io para criar produtos que vão te ajudar a gerenciar seu ambiente Kubernetes de uma forma simples e centralizada."
+    "message": "A UnDistro é uma iniciativa da Getup.io para criar produtos que vão te ajudar a gerenciar seu ambiente Kubernetes de uma forma simples e centralizada. "
   },
   "zora.title": {
-    "message": "O primeiro produto criado pela Undistro é o Zora."
+    "message": "O primeiro produto lançado pela Undistro é o Zora."
   },
   "zora.description": {
     "message": "O Zora escaneia periodicamente seus clusters Kubernetes em busca de potenciais problemas ou vulnerabilidades em recursos e configurações implantados, ajudando você a garantir a conformidade com as melhores práticas e evitando problemas de segurança, alocação e má configuração."
@@ -51,7 +51,7 @@
     "message": "Versão alpha"
   },
   "timeline.items.0.description": {
-    "message": "Estamos felizes em anunciar a primeira versão alpha do Zora. Todos podem testá-la através da nossa documentação. É um produto funcional, porém, por estar em versão alpha, muitas novas funcionalidades ainda estão por vir. Assine nossa newsletter para acompanhar a evolução do produto."
+    "message": "Estamos felizes em anunciar a primeira versão alpha do Zora! É um produto funcional, porém, por estar em versão alpha, muitas funcionalidades novas ainda estão por vir. Convidamos todos a testá-la através da nossa documentação."
   },
   "timeline.items.1.title": {
     "message": "Guia de orientação para resolução de issues"
@@ -81,7 +81,7 @@
     "message": "Novas interações via UI"
   },
   "timeline.items.5.description": {
-    "message": "Conecte um cluster, edite configurações e ambientes diretamente pela interface, crie uma nova issue, ou edite uma existente). Deixe seus colegas não técnicos participarem da festa com nossa interface amigável e intuitiva."
+    "message": "Conecte um cluster, edite configurações, crie uma nova issue ou edite uma existente. Faça tudo isso diretamente pela interface. Deixe seus colegas não técnicos participarem da festa com nossa interface amigável e intuitiva."
   },
   "timeline.items.6.title": {
     "message": "Visão por Namespace"
