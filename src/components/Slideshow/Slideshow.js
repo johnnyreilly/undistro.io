@@ -30,22 +30,22 @@ const slides = [
   {
     title: <Translate id="zora.features.items.0.title" />,
     description: <Translate id="zora.features.items.0.description" />,
-    src: "/img/cluster.webp",
+    src: "/img/zora-screenshot-1.png",
   },
   {
     title: <Translate id="zora.features.items.1.title" />,
     description: <Translate id="zora.features.items.1.description" />,
-    src: "/img/cluster.webp",
+    src: "/img/zora-screenshot-2.png",
   },
   {
     title: <Translate id="zora.features.items.2.title" />,
     description: <Translate id="zora.features.items.2.description" />,
-    src: "/img/cluster.webp",
+    src: "/img/zora-screenshot-3.png",
   },
   {
     title: <Translate id="zora.features.items.3.title" />,
     description: <Translate id="zora.features.items.3.description" />,
-    src: "/img/cluster.webp",
+    src: "/img/zora-screenshot-4.png",
   },
 ];
 
@@ -129,10 +129,10 @@ export const SlideShow = () => {
             <ArrowRight />
           </div>
           <div className="flex flex-col z-10 items-center text-center space-y-2">
-            <p className="text-primary text-2xl md:text-3xl font-sf-pro font-bold">
+            <p className="text-primary text-2xl md:text-3xl font-sf-pro font-bold text-shadow">
               {slides[imageIndex].title}
             </p>
-            <p className="text-white opacity-80 text-sm md:text-base font-inter max-w-2xl">
+            <p className="text-white opacity-80 text-sm md:text-base font-inter max-w-2xl md:leading-[140%]">
               {slides[imageIndex].description}
             </p>
             <Pagination currentPage={imageIndex} setPage={setPage} />
