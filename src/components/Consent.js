@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import * as gtag from "../lib/gtag";
 import { useCookies } from "react-cookie";
+import Translate from "@docusaurus/Translate";
 
 const GDPR_COOKIE = "undistro-gdpr-consent";
 
@@ -33,23 +34,21 @@ function Consent() {
 
   return (
     <div
-      className={`fixed bg-[#293D52] bg-opacity-40 shadow-top text-opacity-90 text-white backdrop-blur-xl z-50 py-12 bottom-0 text-xs w-full ${
+      className={`fixed bg-[#293D52] bg-opacity-40 shadow-top text-opacity-90 text-white backdrop-blur-xl z-50 py-12 bottom-0 w-full ${
         consent ? "hidden" : ""
       }`}
     >
-      <div className="section flex justify-between">
+      <div className="section flex flex-col lg:flex-row justify-between items-center font-medium space-y-8 lg:space-y-0">
         <p>
-          Undistro uses cookies to analyze the traffic on this website.
-          Information about your use of the website is shared with Undistro for
-          this purpose. See details.
+          <Translate id="cookie.description" />
         </p>
         <button
           onClick={() => {
             acceptCookie();
           }}
-          className="bg-[#13AAFF] text-black rounded-md text-sm px-8 py-2"
+          className="bg-[#13AAFF] text-black rounded-md text-sm px-8 py-2 w-full lg:w-auto"
         >
-          Ok, got it!
+          <Translate id="cookie.button" />
         </button>
       </div>
     </div>

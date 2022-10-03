@@ -151,5 +151,11 @@
   },
   "contact.line4": {
     "message": "Se deseja apenas se manter atualizado sobre nossas iniciativas e evoluções do produto, inscreva-se em nossa newsletter."
+  },
+  "cookie.description": {
+    "message": "Este site utiliza cookies para garantir a você uma melhor experiência. Saiba mais"
+  },
+  "cookie.button": {
+    "message": "Ok"
   }
 }

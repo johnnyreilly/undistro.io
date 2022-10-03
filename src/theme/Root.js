@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { CookiesProvider } from "react-cookie";
 import { Consent } from "../components/Consent";
-import { Analytics } from "../components/Analytics";
 import { GA_TRACKING_ID } from "../lib/gtag";
 
 export default function Root({ children }) {

@@ -151,5 +151,12 @@
   },
   "contact.line4": {
     "message": "If you just want to stay up to date with our product, we recommend that you sign up for our newsletter."
+  },
+
+  "cookie.description": {
+    "message": "This website uses cookies to ensure you get the best experience."
+  },
+  "cookie.button": {
+    "message": "Ok, got it!"
   }
 }
