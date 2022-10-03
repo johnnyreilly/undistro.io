@@ -23,17 +23,19 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/undistro/undistro/tree/main/website/",
+          editUrl: "https://github.com/undistro/undistro/tree/main/website/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/undistro/undistro/tree/main/website/",
+          editUrl: "https://github.com/undistro/undistro/tree/main/website/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
+        },
+        googleAnalytics: {
+          trackingID: "UA-193342188-1",
+          anonymizeIP: true,
         },
       }),
     ],
@@ -67,15 +69,14 @@ const config = {
           width: 132,
         },
         items: [
-          {to: '/#home', label: 'Home'},
-          {to: '/#zora', label: 'Zora'},
-          {to: '/#milestones', label: 'Milestones'},
-          {to: '/#community', label: 'Community'},
-          {to: 'contact', label: 'Contact'},
+          { to: "/#home", label: "Home" },
+          { to: "/#zora", label: "Zora" },
+          { to: "/#milestones", label: "Milestones" },
+          { to: "/#community", label: "Community" },
+          { to: "contact", label: "Contact" },
           {
-            type: 'localeDropdown',
-            position: 'left',
-            
+            type: "localeDropdown",
+            position: "left",
           },
         ],
       },
@@ -91,17 +92,17 @@ const config = {
     }),
   /** @type {import('@docusaurus/types')} */
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'pt'],
+    defaultLocale: "en",
+    locales: ["en", "pt"],
     localeConfigs: {
       en: {
-        htmlLang: 'en-GB',
-        label: 'EN',
+        htmlLang: "en-GB",
+        label: "EN",
       },
       pt: {
-        htmlLang: 'pt-BR',
-        label: 'PT',
-      }
+        htmlLang: "pt-BR",
+        label: "PT",
+      },
     },
   },
 };
