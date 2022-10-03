@@ -39,6 +39,9 @@ export default function Contact() {
             </p>
             <p>
               <Translate id="contact.line4" />
+              <a className="underline" href="#newsletter">
+                <Translate id="contact.newsletter" />
+              </a>
             </p>
           </div>
           <ContactForm />

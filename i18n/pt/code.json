@@ -1,12 +1,9 @@
 {
   "description": {
-    "message": "Visualize, crie e gerencie um ou mais clusters de forma padronizada e centralizada. Obtenha acesso antecipado ao produto."
+    "message": "A UnDistro é uma iniciativa da Getup.io para criar produtos que vão te ajudar a gerenciar seu ambiente Kubernetes de uma forma simples e centralizada."
   },
   "heading": {
     "message": "Conheça seus clusters Kubernetes como a palma de sua mão"
-  },
-  "subtitle": {
-    "message": "A UnDistro é uma iniciativa da Getup.io para criar produtos que vão te ajudar a gerenciar seu ambiente Kubernetes de uma forma simples e centralizada. "
   },
   "zora.title": {
     "message": "O primeiro produto lançado pela Undistro é o Zora."
@@ -50,8 +47,11 @@
   "timeline.items.0.title": {
     "message": "Versão alpha"
   },
-  "timeline.items.0.description": {
-    "message": "Estamos felizes em anunciar a primeira versão alpha do Zora! É um produto funcional, porém, por estar em versão alpha, muitas funcionalidades novas ainda estão por vir. Convidamos todos a testá-la através da nossa documentação."
+  "timeline.items.0.description.1": {
+    "message": "Estamos felizes em anunciar a primeira versão alpha do Zora! É um produto funcional, porém, por estar em versão alpha, muitas funcionalidades novas ainda estão por vir. Convidamos todos a testá-la através da nossa"
+  },
+  "timeline.items.0.description.2": {
+    "message": "documentação"
   },
   "timeline.items.1.title": {
     "message": "Guia de orientação para resolução de issues"
@@ -68,8 +68,14 @@
   "timeline.items.3.title": {
     "message": "Zora plugin"
   },
-  "timeline.items.3.description": {
-    "message": "Hoje usamos o Popeye como nossa única fonte de vulnerabilidades. Como evolução, estamos desenvolvendo um plugin próprio, com nossas próprias verificações atualizadas de acordo com as últimas vulnerabilidades divulgadas."
+  "timeline.items.3.description.1": {
+    "message": "Hoje usamos o "
+  },
+  "timeline.items.3.description.2": {
+    "message": "Popeye"
+  },
+  "timeline.items.3.description.3": {
+    "message": " como nossa única fonte de vulnerabilidades. Como evolução, estamos desenvolvendo um plugin próprio, com nossas próprias verificações atualizadas de acordo com as últimas vulnerabilidades divulgadas."
   },
   "timeline.items.4.title": {
     "message": "Verificações customizadas"
@@ -150,7 +156,10 @@
     "message": "Retornaremos o mais breve possível."
   },
   "contact.line4": {
-    "message": "Se deseja apenas se manter atualizado sobre nossas iniciativas e evoluções do produto, inscreva-se em nossa newsletter."
+    "message": "Se deseja apenas se manter atualizado sobre nossas iniciativas e evoluções do produto, inscreva-se em nossa "
+  },
+  "contact.newsletter": {
+    "message": "newsletter."
   },
   "cookie.description": {
     "message": "Este site utiliza cookies para garantir a você uma melhor experiência. Saiba mais"

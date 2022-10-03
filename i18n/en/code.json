@@ -5,9 +5,6 @@
   "heading": {
     "message": "Get to know your Kubernetes \nclusters inside out"
   },
-  "subtitle": {
-    "message": "UnDistro is an initiative backed by Getup.io to create products that will help you manage your Kubernetes environment in a simple and centralized way."
-  },
   "zora.title": {
     "message": "The first product launched by Undistro is Zora."
   },
@@ -50,8 +47,11 @@
   "timeline.items.0.title": {
     "message": "Alpha version is released!"
   },
-  "timeline.items.0.description": {
-    "message": "We’re pleased to announce the first Alpha version of Zora. It is a working product, but still missing a few features. Everyone can test it out via our documentation."
+  "timeline.items.0.description.1": {
+    "message": "We’re pleased to announce the first Alpha version of Zora. It is a working product, but still missing a few features. Everyone can test it out via our"
+  },
+  "timeline.items.0.description.2": {
+    "message": "documentation."
   },
   "timeline.items.1.title": {
     "message": "Orientation Guide to fix issues"
@@ -68,9 +68,16 @@
   "timeline.items.3.title": {
     "message": "Zora plugin"
   },
-  "timeline.items.3.description": {
-    "message": "Today we use Popeye as our only source of vulnerabilities, but we are creating a “Zora” plugin (through Zora syntax), with our own verifications, always up to date with the latest known Kubernetes vulnerabilities."
+  "timeline.items.3.description.1": {
+    "message": "Today we use "
   },
+  "timeline.items.3.description.2": {
+    "message": "Popeye"
+  },
+  "timeline.items.3.description.3": {
+    "message": " as our only source of vulnerabilities, but we are creating a “Zora” plugin (through Zora syntax), with our own verifications, always up to date with the latest known Kubernetes vulnerabilities."
+  },
+
   "timeline.items.4.title": {
     "message": "Custom checks"
   },
@@ -150,9 +157,11 @@
     "message": "We'll try to get back to you as soon as possible."
   },
   "contact.line4": {
-    "message": "If you just want to stay up to date with our product, we recommend that you sign up for our newsletter."
+    "message": "If you just want to stay up to date with our product, we recommend that you sign up for our "
   },
-
+  "contact.newsletter": {
+    "message": "newsletter."
+  },
   "cookie.description": {
     "message": "This website uses cookies to ensure you get the best experience."
   },

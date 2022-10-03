@@ -16,7 +16,18 @@ const cards = [
   {
     icon: <CheckCircle className="timeline-icon" weight="fill" />,
     title: <Translate id="timeline.items.0.title" />,
-    description: <Translate id="timeline.items.0.description" />,
+    description: (
+      <p>
+        <Translate id="timeline.items.0.description.1" />{" "}
+        <a
+          className="underline"
+          href="https://zora.undistro.io/"
+          target={"_blank"}
+        >
+          <Translate id="timeline.items.0.description.2" />
+        </a>
+      </p>
+    ),
   },
   {
     icon: <Files className="timeline-icon" />,
@@ -31,7 +42,19 @@ const cards = [
   {
     icon: <Zora />,
     title: <Translate id="timeline.items.3.title" />,
-    description: <Translate id="timeline.items.3.description" />,
+    description: (
+      <p>
+        <Translate id="timeline.items.3.description.1" />
+        <a
+          className="underline"
+          href="https://github.com/derailed/popeye"
+          target={"_blank"}
+        >
+          <Translate id="timeline.items.3.description.2" />
+        </a>
+        <Translate id="timeline.items.3.description.3" />
+      </p>
+    ),
   },
   {
     icon: <Wrench className="timeline-icon" />,
@@ -70,7 +93,9 @@ const TimelineCard = ({ title, icon, description }) => {
       <div className="group bg-[#0F181F] hover:bg-[#121D27] duration-200 px-10 py-8 text-white rounded-2xl space-y-4">
         <div className="font-sf-pro text-2xl font-bold text-white duration-200 flex flex-col space-y-2 lg:space-y-0 lg:space-x-2 lg:flex-row items-start">
           {icon}
-          <span className="inline my-auto group-hover:text-primary duration-200">{title}</span>
+          <span className="inline my-auto group-hover:text-primary duration-200">
+            {title}
+          </span>
         </div>
         <p className="font-inter opacity-70">{description}</p>
       </div>

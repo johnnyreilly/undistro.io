@@ -6,7 +6,7 @@ function Footer() {
   return (
     <footer className="bg-[#0A1015]">
       <div className="section py-16 text-white w-full space-y-12 z-10 ">
-        <div className="newsletter">
+        <div id="newsletter" className="newsletter">
           <div>
             <p className="font-sf-pro font-medium text-3xl">
               <Translate id="newsletter.title" />

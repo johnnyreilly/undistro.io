@@ -33,7 +33,7 @@
   }
 
   .heading {
-    @apply text-white text-4xl lg:text-6xl font-bold font-montserrat text-center;
+    @apply text-white text-4xl lg:text-6xl font-bold font-montserrat text-center max-w-4xl;
     line-height: 120%;
     letter-spacing: 0.02em;
   }
