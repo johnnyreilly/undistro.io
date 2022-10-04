@@ -132,7 +132,7 @@ export const SlideShow = () => {
             <p className="text-primary text-2xl md:text-3xl font-sf-pro font-bold text-shadow">
               {slides[imageIndex].title}
             </p>
-            <p className="text-white opacity-80 text-sm md:text-base font-inter max-w-2xl md:leading-[140%]">
+            <p className="text-white opacity-80 text-sm md:text-base font-inter max-w-xl  xl:max-w-4xl md:leading-[140%]">
               {slides[imageIndex].description}
             </p>
             <Pagination currentPage={imageIndex} setPage={setPage} />
