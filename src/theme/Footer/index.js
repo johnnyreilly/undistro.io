@@ -3,6 +3,8 @@ import React from "react";
 import { HubspotForm } from "../../components/HubspotForm";
 
 function Footer() {
+  const locale = document.documentElement.lang;
+
   return (
     <footer className="bg-[#0A1015]">
       <div className="section py-16 text-white w-full space-y-12 z-10 ">
@@ -20,10 +22,10 @@ function Footer() {
           </div>
         </div>
         <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center space-y-4 lg:space-y-0">
-          <div>
+          <div className="flex-1">
             <img src="/img/logo-white.svg" alt="undistro" className="h-4" />
           </div>
-          <div className="flex space-x-4">
+          <div className="flex flex-1 space-x-4 justify-center">
             <a href="/contact" className="cursor-pointer">
               <Translate id="footer.contact" />
             </a>
@@ -36,7 +38,7 @@ function Footer() {
               <Translate id="footer.documentation" />
             </a>
           </div>
-          <div className="flex items-center space-x-4">
+          <div className="flex flex-1 items-center space-x-4 justify-end">
             <p className="opacity-60">Social</p>
             <a
               href="https://github.com/undistro/zora"
@@ -90,6 +92,13 @@ function Footer() {
               Getup.io
             </a>
           </p>
+          {locale === "pt-BR" && (
+            <div className="flex divide-x opacity-80">
+              <a className="pr-2" href="/politica-de-privacidade">Política de Privacidade</a>
+              <a className="px-2" href="/politica-de-cookies">Política de Cookies</a>
+              <a className="pl-2" href="/termos-de-uso">Termos de uso</a>
+            </div>
+          )}
         </div>
       </div>
     </footer>
