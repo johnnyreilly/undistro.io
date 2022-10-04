@@ -8,6 +8,9 @@
   "zora.title": {
     "message": "The first product launched by Undistro is Zora."
   },
+  "zora.version": {
+    "message": "new version"
+  },
   "zora.description": {
     "message": "Zora scans all of your Kubernetes clusters periodically, searching for potential issues or vulnerabilities in deployed resources and configurations, helping to make sure you are in compliance with best practices and also to avoid problems regarding security, allocation, and misconfiguration."
   },
@@ -21,7 +24,7 @@
     "message": "Centralized visualization of clusters"
   },
   "zora.features.items.0.description": {
-    "message": "Zora brings a centralized visualization of all your clusters, with the main data and number of issues"
+    "message": "Zora brings a centralized visualization of all your clusters, with the most relevant data and number of issues"
   },
   "zora.features.items.1.title": {
     "message": "Issues details and resources affected"
@@ -33,7 +36,7 @@
     "message": "Centralized visualization of all the issues"
   },
   "zora.features.items.2.description": {
-    "message": "If you prefer, you can view all your issues in a single list, without having to select each cluster."
+    "message": "If you prefer, you can view all your issues in a single list, without having to select each cluster. This enables you to prioritize the resolution of issues by looking at parameters like: severity, total number of clusters, and environments affected."
   },
   "zora.features.items.3.title": {
     "message": "Documentation"
@@ -146,6 +149,9 @@
   },
   "contact.title": {
     "message": "Contact us"
+  },
+  "contact.form.title": {
+    "message": "Send us a message"
   },
   "contact.line1": {
     "message": "Thanks for reaching out to us!"

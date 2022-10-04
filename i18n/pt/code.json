@@ -8,6 +8,9 @@
   "zora.title": {
     "message": "O primeiro produto lançado pela Undistro é o Zora."
   },
+  "zora.version": {
+    "message": "nova versão"
+  },
   "zora.description": {
     "message": "O Zora escaneia periodicamente seus clusters Kubernetes em busca de potenciais problemas ou vulnerabilidades em recursos e configurações implantados, ajudando você a garantir a conformidade com as melhores práticas e evitando problemas de segurança, alocação e má configuração."
   },
@@ -21,7 +24,7 @@
     "message": "Visualização de clusters de forma centralizada"
   },
   "zora.features.items.0.description": {
-    "message": "Seguindo o conceito de visualização centralizada da Undistro, o Zora traz uma visão de todos os seus clusters, com os principais dados e quantidade sumarizada de issues."
+    "message": "Seguindo o conceito de visualização centralizada da Undistro, o Zora traz uma visão de todos os seus clusters, com os seus principais dados e quantidade sumarizada de issues."
   },
   "zora.features.items.1.title": {
     "message": "Detalhamento de issues e recursos afetados"
@@ -33,7 +36,7 @@
     "message": "Visualização centralizada de todas as issues"
   },
   "zora.features.items.2.description": {
-    "message": "Se preferir, você pode visualizar de uma forma centralizada todas as issues de todos os clusters, sem precisar selecionar um cluster por vez."
+    "message": "Se preferir, você pode visualizar de uma forma centralizada todas as issues de todos os clusters, sem precisar selecionar um cluster por vez. Dessa forma é possível priorizar a resolução de issues através de parâmetros como: severidade quantidade total de clusters e ambientes afetados."
   },
   "zora.features.items.3.title": {
     "message": "Documentação explicativa"
@@ -145,6 +148,9 @@
   },
   "contact.title": {
     "message": "Fale com a UnDistro"
+  },
+  "contact.form.title": {
+    "message": "Envie-nos uma mensagem"
   },
   "contact.line1": {
     "message": "Obrigado por entrar em contato!"

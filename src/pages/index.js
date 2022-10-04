@@ -102,7 +102,11 @@ export default function Home() {
               </p>
             </a>
             <div className="border border-[#203446] flex-none my-6 lg:my-12" />
-            <a className="group flex flex-col justify-center space-y-2 lg:space-y-6 bg-[#0D151C] hover:bg-[#0F181F] hover:no-underline hover:text-white cursor-pointer transition duration-200 w-96 p-6 h-40 md:h-56">
+            <a
+              href="https://join.slack.com/t/undistrocommunity/shared_invite/zt-1h5i4earm-IjOpQeKNby09YzoOcvXqQQ"
+              target="_blank"
+              className="group flex flex-col justify-center space-y-2 lg:space-y-6 bg-[#0D151C] hover:bg-[#0F181F] hover:no-underline hover:text-white cursor-pointer transition duration-200 w-96 p-6 h-40 md:h-56"
+            >
               <img className="h-10 lg:h-16" src="/img/slack.svg" />
               <p className="font-inter lg:text-xl opacity-80 group-hover:opacity-100">
                 <Translate id="community.slack" />
