@@ -1,10 +1,8 @@
-import Translate from "@docusaurus/Translate";
+import Translate, { translate } from "@docusaurus/Translate";
 import React from "react";
 import { HubspotForm } from "../../components/HubspotForm";
 
 function Footer() {
-  const locale = document.documentElement.lang;
-
   return (
     <footer className="bg-[#0A1015]">
       <div className="section py-16 text-white w-full space-y-12 z-10 ">
@@ -92,11 +90,17 @@ function Footer() {
               Getup.io
             </a>
           </p>
-          {locale === "pt-BR" && (
+          {translate({ id: "locale" }) === "pt" && (
             <div className="flex divide-x opacity-80">
-              <a className="pr-2" href="/politica-de-privacidade">Política de Privacidade</a>
-              <a className="px-2" href="/politica-de-cookies">Política de Cookies</a>
-              <a className="pl-2" href="/termos-de-uso">Termos de uso</a>
+              <a className="pr-2" href="/politica-de-privacidade">
+                Política de Privacidade
+              </a>
+              <a className="px-2" href="/politica-de-cookies">
+                Política de Cookies
+              </a>
+              <a className="pl-2" href="/termos-de-uso">
+                Termos de uso
+              </a>
             </div>
           )}
         </div>

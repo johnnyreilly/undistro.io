@@ -172,5 +172,8 @@
   },
   "cookie.button": {
     "message": "Ok"
+  },
+  "locale": {
+    "message": "pt"
   }
 }
