@@ -3,14 +3,12 @@ import clsx from "clsx";
 import ErrorBoundary from "@docusaurus/ErrorBoundary";
 import { PageMetadata, ThemeClassNames } from "@docusaurus/theme-common";
 import { useKeyboardNavigation } from "@docusaurus/theme-common/internal";
-import SkipToContent from "@theme/SkipToContent";
 import AnnouncementBar from "@theme/AnnouncementBar";
 import Navbar from "@theme/Navbar";
 import Footer from "@theme/Footer";
 import LayoutProvider from "@theme/Layout/Provider";
 import ErrorPageContent from "@theme/ErrorPageContent";
 import styles from "./styles.module.css";
-
 export default function Layout(props) {
   const {
     children,
@@ -24,9 +22,6 @@ export default function Layout(props) {
   return (
     <LayoutProvider>
       <PageMetadata title={title} description={description} />
-
-      <SkipToContent />
-
       <AnnouncementBar />
 
       <Navbar />
@@ -42,6 +37,7 @@ export default function Layout(props) {
           {children}
         </ErrorBoundary>
       </div>
+
       {!noFooter && <Footer />}
     </LayoutProvider>
   );
