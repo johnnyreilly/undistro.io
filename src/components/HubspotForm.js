@@ -29,16 +29,45 @@ const HubspotForm = () => {
 
   return (
     <div className="form">
-      <div className="text-primary flex flex-col items-center justify-center">
-        <p>
-          <Translate id="formLabel">
-            Undistro is coming. Get early access.
-          </Translate>
-        </p>
-      </div>
       <div className="text-primary" id="hubspotForm" />
     </div>
   );
 };
 
-export default HubspotForm;
+export const ContactForm = () => {
+  useEffect(() => {
+    const script = document.createElement("script");
+
+    script.id = "hs-script-loader";
+    script.src = "https://js.hsforms.net/forms/v2.js";
+    document.body.appendChild(script);
+
+    script.addEventListener(
+      "load",
+      () => {
+        // @ts-ignore
+        if (window.hbspt) {
+          // @ts-ignore
+          window.hbspt.forms.create({
+            region: "na1",
+            portalId: "1910685",
+            formId: "c664c8af-83fd-4e9a-b9f7-03ef52d174fe",
+            target: "#contact-form",
+          });
+        }
+      },
+      { once: true }
+    );
+  }, []);
+
+  return (
+    <div className="contact-form lg:w-1/2 lg:!-mt-48 z-20">
+      <p className="font-sf-pro font-bold mb-12 text-3xl">
+        <Translate id="contact.form.title" />
+      </p>
+      <div id="contact-form" />
+    </div>
+  );
+};
+
+export { HubspotForm };

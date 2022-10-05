@@ -13,7 +13,7 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.png",
-  organizationName: "getupio-undistro", // Usually your GitHub org/user name.
+  organizationName: "undistro", // Usually your GitHub org/user name.
   projectName: "undistro", // Usually your repo name.
   presets: [
     [
@@ -23,17 +23,19 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/getupio-undistro/undistro/tree/main/website/",
+          editUrl: "https://github.com/undistro/undistro/tree/main/website/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/getupio-undistro/undistro/tree/main/website/",
+          editUrl: "https://github.com/undistro/undistro/tree/main/website/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
+        },
+        googleAnalytics: {
+          trackingID: "UA-193342188-1",
+          anonymizeIP: true,
         },
       }),
     ],
@@ -50,6 +52,13 @@ const config = {
         },
       };
     },
+    [
+      "@docusaurus/plugin-google-gtag",
+      {
+        trackingID: "G-226F0LR9KE",
+        anonymizeIP: true,
+      },
+    ],
   ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -60,16 +69,21 @@ const config = {
         respectPrefersColorScheme: false,
       },
       navbar: {
-        // logo: {
-        //   alt: "UnDistro",
-        //   src: "img/logoUnDistroLight.svg",
-        //   srcDark: "img/logoUnDistroDark.svg",
-        //   width: 132,
-        // },
+        logo: {
+          alt: "UnDistro",
+          src: "img/logo.svg",
+          srcDark: "img/logoUnDistroDark.svg",
+          width: 132,
+        },
         items: [
+          { to: "/#home", label: "Home" },
+          { to: "/#zora", label: "Zora" },
+          { to: "/#roadmap", label: "Roadmap" },
+          { to: "/#community", label: "Community" },
+          { to: "contact", label: "Contact", },
           {
-            type: 'localeDropdown',
-            position: 'left',
+            type: "localeDropdown",
+            position: "left",
           },
         ],
       },
@@ -85,11 +99,16 @@ const config = {
     }),
   /** @type {import('@docusaurus/types')} */
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en', 'pt'],
+    defaultLocale: "en",
+    locales: ["en", "pt"],
     localeConfigs: {
       en: {
-        htmlLang: 'en-GB',
+        htmlLang: "en-GB",
+        label: "EN",
+      },
+      pt: {
+        htmlLang: "pt-BR",
+        label: "PT",
       },
     },
   },

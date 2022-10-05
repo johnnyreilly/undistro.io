@@ -1,180 +1,180 @@
 {
   "description": {
-    "message": "A UnDistro é uma iniciativa da Getup.io para criar produtos que vão te ajudar a gerenciar seu ambiente Kubernetes de uma forma simples e centralizada."
+    "message": "UnDistro is a Getup.io backed initiative to create products that help you manage your Kubernetes environment in a simple and centralized way."
   },
   "heading": {
-    "message": "Conheça seus clusters Kubernetes como a palma de sua mão"
+    "message": "Get to know your Kubernetes \nclusters inside out"
   },
   "zora.title": {
-    "message": "O primeiro produto lançado pela Undistro é o Zora."
+    "message": "The first product launched by Undistro is Zora."
   },
   "zora.version": {
-    "message": "nova versão"
+    "message": "new version"
   },
   "zora.description": {
-    "message": "O Zora escaneia periodicamente seus clusters Kubernetes em busca de potenciais problemas ou vulnerabilidades em recursos e configurações implantados, ajudando você a garantir a conformidade com as melhores práticas e evitando problemas de segurança, alocação e má configuração."
+    "message": "Zora scans all of your Kubernetes clusters periodically, searching for potential issues or vulnerabilities in deployed resources and configurations, helping to make sure you are in compliance with best practices and also to avoid problems regarding security, allocation, and misconfiguration."
   },
   "zora.alpha": {
-    "message": "Estamos em versão alpha!"
+    "message": "We are in alpha stage!"
   },
   "zora.features.title": {
-    "message": "Principais funcionalidades"
+    "message": "Main features of Zora"
   },
   "zora.features.items.0.title": {
-    "message": "Visualização de clusters de forma centralizada"
+    "message": "Centralized visualization of clusters"
   },
   "zora.features.items.0.description": {
-    "message": "Seguindo o conceito de visualização centralizada da Undistro, o Zora traz uma visão de todos os seus clusters, com os seus principais dados e quantidade sumarizada de issues."
+    "message": "Zora brings a centralized visualization of all your clusters, with the most relevant data and number of issues"
   },
   "zora.features.items.1.title": {
-    "message": "Detalhamento de issues e recursos afetados"
+    "message": "Issues details and resources affected"
   },
   "zora.features.items.1.description": {
-    "message": "O Zora mostra todos os detalhes das issues: categoria, gravidade e todos os recursos afetados. Com esses dados, você pode analisar o componente exato que precisa corrigir."
+    "message": "Zora shows you several details of the issue: category, severity, and all resources affected. With this data, you can analyze the exact component that needs to be fixed."
   },
   "zora.features.items.2.title": {
-    "message": "Visualização centralizada de todas as issues"
+    "message": "Centralized visualization of all the issues"
   },
   "zora.features.items.2.description": {
-    "message": "Também é possível visualizar todas as issues de todos os cluster de forma centralizada, possibilitando  priorizar sua resolução através de parâmetros como: severidade quantidade total de clusters e ambientes afetados."
+    "message": "You can also view all your issues in a single list, without having to select each cluster. This enables you to prioritize the resolution of issues by looking at parameters like: severity, total number of clusters, and environments affected."
   },
   "zora.features.items.3.title": {
-    "message": "Documentação explicativa"
+    "message": "Documentation"
   },
   "zora.features.items.3.description": {
-    "message": "Se você não sabe por que uma issue é de fato um problema para seu cluster, apresentamos uma documentação confiável que o ajudará a entender a raiz do problema."
+    "message": "If you don’t know why an issue is in fact a problem for your cluster, we present reliable documentation that will help you understand the root of the problem."
   },
   "timeline.title": {
     "message": "Roadmap"
   },
   "timeline.items.0.title": {
-    "message": "Versão alpha"
+    "message": "Alpha version is released!"
   },
   "timeline.items.0.description.1": {
-    "message": "Estamos felizes em anunciar a primeira versão alpha do Zora! É um produto funcional, porém, por estar em versão alpha, muitas funcionalidades novas ainda estão por vir. Convidamos todos a testá-la através da nossa"
+    "message": "We’re pleased to announce the first Alpha version of Zora. It is a working product, but still missing a few features. Everyone can test it out via our"
   },
   "timeline.items.0.description.2": {
-    "message": "documentação"
+    "message": "documentation."
   },
   "timeline.items.1.title": {
-    "message": "Guia de orientação para resolução de issues"
+    "message": "Orientation Guide to fix issues"
   },
   "timeline.items.1.description": {
-    "message": "Para ajudá-lo a resolver suas issues, estamos criando um guia de orientação que o ajudará a resolvê-las e evitar maiores problemas no seu ambiente."
+    "message": "To help you to solve your clusters issues, we are creating a orientation guide that will help you in solving them and to avoid bigger problems in your environment."
   },
   "timeline.items.2.title": {
-    "message": "Edição de issues"
+    "message": "Edit Issues"
   },
   "timeline.items.2.description": {
-    "message": "Possibilidade de editar problemas existentes (habilitar, desabilitar, editar criticidade e categoria), permitindo que o usuário personalize seu dashboard de acordo com o que for mais relevante para seu ambiente."
+    "message": "Possibility to edit existing issues (enable and disable them, edit criticality, category), allowing you to customize their dashboard according to what is most relevant for your environment."
   },
   "timeline.items.3.title": {
     "message": "Zora plugin"
   },
   "timeline.items.3.description.1": {
-    "message": "Hoje usamos o "
+    "message": "Today we use "
   },
   "timeline.items.3.description.2": {
     "message": "Popeye"
   },
   "timeline.items.3.description.3": {
-    "message": " como nossa única fonte de vulnerabilidades. Como evolução, estamos desenvolvendo um plugin próprio, com nossas próprias verificações atualizadas de acordo com as últimas vulnerabilidades divulgadas."
+    "message": " as our only source of vulnerabilities, but we are creating a “Zora” plugin (through Zora syntax), with our own verifications, always up to date with the latest known Kubernetes vulnerabilities."
   },
   "timeline.items.4.title": {
-    "message": "Verificações customizadas"
+    "message": "Custom checks"
   },
   "timeline.items.4.description": {
-    "message": "Possibilidade de criar suas próprias verificações, através da sintaxe própria do Zora."
+    "message": "Possibility to create your own customized checks, via the Zora syntax."
   },
   "timeline.items.5.title": {
-    "message": "Novas interações via UI"
+    "message": "New interactions via UI"
   },
   "timeline.items.5.description": {
-    "message": "Conecte um cluster, edite configurações, crie uma nova issue ou edite uma existente. Faça tudo isso diretamente pela interface. Deixe seus colegas não técnicos participarem da festa com nossa interface amigável e intuitiva."
+    "message": "Connect a cluster, edit setting, create a new issue or edit an existing one directly via interface. Let your not-so-technical colleagues join the party with our friendly and intuitive interface."
   },
   "timeline.items.6.title": {
-    "message": "Visão por Namespace"
+    "message": "Namespace View"
   },
   "timeline.items.6.description": {
-    "message": "Opção de filtro por namespace (resultando em uma lista de issues que afetam um namespace específico)."
+    "message": "Possibility to filter issues that only affect a specific namespace"
   },
   "timeline.items.7.title": {
-    "message": "Controle de usuários"
+    "message": "User Control"
   },
   "timeline.items.7.description": {
-    "message": "Uma nova versão com controle de acesso. Você poderá compartilhar o mesmo painel com outras pessoas da sua equipe."
+    "message": "A new version with access control. You’ll be able to share the same dashboard with other people within your team"
   },
   "timeline.items.8.title": {
-    "message": "Métricas com Grafana e Prometheus"
+    "message": "Metrics with Grafana and Prometheus"
   },
   "timeline.items.8.description": {
-    "message": "Integração com Grafana e Prometheus para exportação de métricas e visualização de dados de forma personalizada e editável."
+    "message": "Integration with Grafana and Prometheus for exporting metrics, and visualizing data in a personalized and editable way"
   },
   "timeline.items.9.title": {
-    "message": "Release versão 1 - beta"
+    "message": "Release version 1 - beta"
   },
   "timeline.items.9.description": {
-    "message": "Nesse momento, estaremos prontos para lançar uma versão beta que terá todos os recursos anteriores. \nDepois disso, o céu é o limite! Vamos evoluir nosso produto com foco total no usuário e na entrega da melhor solução para garantir que seus clusters estejam sempre em conformidade com as melhores práticas de configuração."
+    "message": "At that time, we will be ready to release a beta version that will include all the previous features. \nAfter that, the sky's the limit! We’ll evolve our product with full focus on the user and on delivering the best solution to ensure that your clusters are always in compliance with the best practices."
   },
   "alpha.title": {
-    "message": "Pronto para dar o primeiro passo para conhecer seus clusters kubernetes como a palma da sua mão?"
+    "message": "Ready to know your Kubernetes clusters inside out?"
   },
   "alpha.description": {
-    "message": "Junte-se a nós na fase alpha do produto. Estamos criando a melhor ferramenta para garantir que seus clusters Kubernetes estejam seguindo as melhores práticas de configuração! Vamos adorar ter você nessa jornada!"
+    "message": "Join us and give our alpha version a go. Zora is creating the best tool to ensure that your Kubernetes clusters are following the best practices, and we’d love to have you along on this journey!"
   },
   "community.title": {
-    "message": "Junte-se à nossa comunidade"
+    "message": "Join our community"
   },
   "community.slack": {
-    "message": "Junte-se ao nosso grupo!"
+    "message": "Join our group"
   },
   "community.github": {
-    "message": "Visite-nos!"
+    "message": "Visit us"
   },
   "newsletter.title": {
-    "message": "Newsletter"
+    "message": "Stay up to date"
   },
   "newsletter.description": {
-    "message": "Mantenha-se atualizado com os últimos desenvolvimentos e lançamentos assinando nossa newsletter."
+    "message": "Stay up to date with the latest developments and releases by signing up to our newsletter."
   },
   "footer.documentation": {
-    "message": "Documentação"
+    "message": "Documentation"
   },
   "footer.contact": {
-    "message": "Entre em contato"
+    "message": "Contact us"
   },
   "footer.copyright": {
-    "message": "A Undistro é uma iniciativa de criação de produtos para Kubernetes apoiada pela"
+    "message": "Undistro is an initiative to create Kubernetes products, backed by "
   },
   "contact.title": {
-    "message": "Fale com a UnDistro"
+    "message": "Contact us"
   },
   "contact.form.title": {
-    "message": "Envie-nos uma mensagem"
+    "message": "Send us a message"
   },
   "contact.line1": {
-    "message": "Obrigado por entrar em contato!"
+    "message": "Thanks for reaching out to us!"
   },
   "contact.line2": {
-    "message": "Se tiver alguma dúvida ou simplesmente quiser entrar em contato conosco, fique à vontade para preencher o formulário."
+    "message": "If you have any question, or simply want to get in touch with us, feel free to fill this form out."
   },
   "contact.line3": {
-    "message": "Retornaremos o mais breve possível."
+    "message": "We'll try to get back to you as soon as possible."
   },
   "contact.line4": {
-    "message": "Se deseja apenas se manter atualizado sobre nossas iniciativas e evoluções do produto, inscreva-se em nossa "
+    "message": "If you just want to stay up to date with our product, we recommend that you sign up for our "
   },
   "contact.newsletter": {
     "message": "newsletter."
   },
   "cookie.description": {
-    "message": "Este site utiliza cookies para garantir a você uma melhor experiência."
+    "message": "This website uses cookies to ensure you get the best experience."
   },
   "cookie.button": {
-    "message": "Ok"
+    "message": "Ok, got it!"
   },
   "locale": {
-    "message": "pt"
+    "message": "en"
   },
   "header.home": {
     "message": "Home"
@@ -186,13 +186,13 @@
     "message": "Roadmap"
   },
   "header.community": {
-    "message": "Comunidade"
+    "message": "Community"
   },
   "header.contact": {
-    "message": "Contato"
+    "message": "Contact"
   },
   "theme.NotFound.title": {
-    "message": "Página não encontrada",
+    "message": "Page Not Found",
     "description": "The title of the 404 page"
   },
   "theme.ErrorPageContent.title": {
@@ -204,11 +204,11 @@
     "description": "The label of the button to try again when the page crashed"
   },
   "theme.NotFound.p1": {
-    "message": "Não foi possível encontrar o que você está procurando.",
+    "message": "We could not find what you were looking for.",
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
-    "message": "Entre em contato com o proprietário do site que lhe trouxe para cá e lhe informe que o link está quebrado.",
+    "message": "Please contact the owner of the site that linked you to the original URL and let them know their link is broken.",
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.admonition.note": {
@@ -232,55 +232,55 @@
     "description": "The default label used for the Caution admonition (:::caution)"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "Fechar",
+    "message": "Close",
     "description": "The ARIA label for close button of announcement bar"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Volte para o topo",
+    "message": "Scroll back to top",
     "description": "The ARIA label for the back to top button"
   },
   "theme.blog.archive.title": {
-    "message": "Arquivo",
+    "message": "Archive",
     "description": "The page & hero title of the blog archive page"
   },
   "theme.blog.archive.description": {
-    "message": "Arquivo",
+    "message": "Archive",
     "description": "The page & hero description of the blog archive page"
   },
   "theme.blog.paginator.navAriaLabel": {
-    "message": "Navegação da página de listagem do blog",
+    "message": "Blog list page navigation",
     "description": "The ARIA label for the blog pagination"
   },
   "theme.blog.paginator.newerEntries": {
-    "message": "Conteúdo mais novo",
+    "message": "Newer Entries",
     "description": "The label used to navigate to the newer blog posts page (previous page)"
   },
   "theme.blog.paginator.olderEntries": {
-    "message": "Conteúdo mais antigo",
+    "message": "Older Entries",
     "description": "The label used to navigate to the older blog posts page (next page)"
   },
   "theme.blog.post.paginator.navAriaLabel": {
-    "message": "Navegação da página de postagem do blog",
+    "message": "Blog post page navigation",
     "description": "The ARIA label for the blog posts pagination"
   },
   "theme.blog.post.paginator.newerPost": {
-    "message": "Postagem mais nova",
+    "message": "Newer Post",
     "description": "The blog post button label to navigate to the newer/previous post"
   },
   "theme.blog.post.paginator.olderPost": {
-    "message": "Postagem mais antiga",
+    "message": "Older Post",
     "description": "The blog post button label to navigate to the older/next post"
   },
   "theme.blog.post.plurals": {
-    "message": "Uma postagem|{count} postagens",
+    "message": "One post|{count} posts",
     "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.tagTitle": {
-    "message": "{nPosts} marcadas com \"{tagName}\"",
+    "message": "{nPosts} tagged with \"{tagName}\"",
     "description": "The title of the page for a blog tag"
   },
   "theme.tags.tagsPageLink": {
-    "message": "Ver todas os Marcadores",
+    "message": "View All Tags",
     "description": "The label of the link targeting the tag list page"
   },
   "theme.colorToggle.ariaLabel": {
@@ -308,62 +308,62 @@
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.paginator.navAriaLabel": {
-    "message": "Navigação das páginas de documentação",
+    "message": "Docs pages navigation",
     "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
-    "message": "Anterior",
+    "message": "Previous",
     "description": "The label used to navigate to the previous doc"
   },
   "theme.docs.paginator.next": {
-    "message": "Próxima",
+    "message": "Next",
     "description": "The label used to navigate to the next doc"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
-    "message": "Um documento selecionado|{count} documentos selecionados",
+    "message": "One doc tagged|{count} docs tagged",
     "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle": {
-    "message": "{nDocsTagged} com \"{tagName}\"",
+    "message": "{nDocsTagged} with \"{tagName}\"",
     "description": "The title of the page for a docs tag"
   },
   "theme.docs.versionBadge.label": {
     "message": "Version: {versionLabel}"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
-    "message": "Esta é uma documentação não lançada para {siteTitle} {versionLabel}.",
+    "message": "This is unreleased documentation for {siteTitle} {versionLabel} version.",
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
   },
   "theme.docs.versions.unmaintainedVersionLabel": {
-    "message": "Esta é a documentação para {siteTitle} {versionLabel}, que não é mais mantida ativamente.",
+    "message": "This is documentation for {siteTitle} {versionLabel}, which is no longer actively maintained.",
     "description": "The label used to tell the user that he's browsing an unmaintained doc version"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
-    "message": "Para a documentação atualizada, veja: {latestVersionLink} ({versionLabel}).",
+    "message": "For up-to-date documentation, see the {latestVersionLink} ({versionLabel}).",
     "description": "The label used to tell the user to check the latest version"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
-    "message": "última versão",
+    "message": "latest version",
     "description": "The label used for the latest version suggestion link label"
   },
   "theme.common.editThisPage": {
-    "message": "Editar essa página",
+    "message": "Edit this page",
     "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
-    "message": "Link direto para o título",
+    "message": "Direct link to heading",
     "description": "Title for link to heading"
   },
   "theme.lastUpdated.atDate": {
-    "message": " em {date}",
+    "message": " on {date}",
     "description": "The words used to describe on which date a page has been last updated"
   },
   "theme.lastUpdated.byUser": {
-    "message": " por {user}",
+    "message": " by {user}",
     "description": "The words used to describe by who the page has been last updated"
   },
   "theme.lastUpdated.lastUpdatedAtBy": {
-    "message": "Última atualização {atDate}{byUser}",
+    "message": "Last updated{atDate}{byUser}",
     "description": "The sentence used to display when a page has been last updated, and by who"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
@@ -371,11 +371,11 @@
     "description": "The label for the navbar versions dropdown on mobile view"
   },
   "theme.common.skipToMainContent": {
-    "message": "Pular para o conteúdo principal",
+    "message": "Skip to main content",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
   "theme.tags.tagsListLabel": {
-    "message": "Marcadores:",
+    "message": "Tags:",
     "description": "The label alongside a tag list"
   },
   "theme.blog.sidebar.navAriaLabel": {
@@ -383,15 +383,15 @@
     "description": "The ARIA label for recent posts in the blog sidebar"
   },
   "theme.CodeBlock.copied": {
-    "message": "Copiado",
+    "message": "Copied",
     "description": "The copied button label on code blocks"
   },
   "theme.CodeBlock.copyButtonAriaLabel": {
-    "message": "Copiar código para a área de transferência",
+    "message": "Copy code to clipboard",
     "description": "The ARIA label for copy code blocks button"
   },
   "theme.CodeBlock.copy": {
-    "message": "Copiar",
+    "message": "Copy",
     "description": "The copy button label on code blocks"
   },
   "theme.CodeBlock.wordWrapToggle": {
@@ -402,44 +402,44 @@
     "message": "Toggle the collapsible sidebar category '{label}'",
     "description": "The ARIA label to toggle the collapsible sidebar category"
   },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Languages",
+    "description": "The label for the mobile language switcher dropdown"
+  },
   "theme.TOCCollapsible.toggleButtonLabel": {
-    "message": "Nessa página",
+    "message": "On this page",
     "description": "The label used by the button on the collapsible TOC component"
   },
   "theme.blog.post.readMore": {
-    "message": "Leia Mais",
+    "message": "Read More",
     "description": "The label used in blog post item excerpts to link to full blog posts"
   },
   "theme.blog.post.readMoreLabel": {
     "message": "Read more about {title}",
     "description": "The ARIA label for the link to full blog posts from excerpts"
   },
-  "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Languages",
-    "description": "The label for the mobile language switcher dropdown"
-  },
   "theme.blog.post.readingTime.plurals": {
-    "message": "Leitura de um minuto|Leitura de {readingTime} minutos",
+    "message": "One min read|{readingTime} min read",
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
-    "message": "Fechar painel lateral",
+    "message": "Collapse sidebar",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.collapseButtonAriaLabel": {
-    "message": "Fechar painel lateral",
+    "message": "Collapse sidebar",
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
-    "message": "← Voltar para o menu principal",
+    "message": "← Back to main menu",
     "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
   "theme.docs.sidebar.expandButtonTitle": {
-    "message": "Expandir painel lateral",
+    "message": "Expand sidebar",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.docs.sidebar.expandButtonAriaLabel": {
-    "message": "Expandir painel lateral",
+    "message": "Expand sidebar",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   }
 }

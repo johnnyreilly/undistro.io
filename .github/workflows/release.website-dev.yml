@@ -1,9 +1,9 @@
-name: HML Website
+name: Dev Website
 
 on:
   push:
     branches:
-      - hml
+      - dev
 
 jobs:
   build:
@@ -28,5 +28,5 @@ jobs:
           aws-secret-access-key: ${{ secrets.WEBSITE_AWS_SECRET_ACCESS_KEY_HML }}
           aws-region: us-east-1
 
-      - name: Publish site on hml.undistro.io
-        run: yarn deploy:hml
+      - name: Publish site on dev.undistro.io
+        run: yarn deploy:dev

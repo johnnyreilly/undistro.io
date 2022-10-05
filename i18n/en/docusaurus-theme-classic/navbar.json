@@ -1,0 +1,22 @@
+{
+  "item.label.Home": {
+    "message": "Home",
+    "description": "Navbar item with label Home"
+  },
+  "item.label.Zora": {
+    "message": "Zora",
+    "description": "Navbar item with label Zora"
+  },
+  "item.label.Roadmap": {
+    "message": "Roadmap",
+    "description": "Navbar item with label Roadmap"
+  },
+  "item.label.Community": {
+    "message": "Community",
+    "description": "Navbar item with label Community"
+  },
+  "item.label.Contact": {
+    "message": "Contact",
+    "description": "Navbar item with label Contact"
+  }
+}

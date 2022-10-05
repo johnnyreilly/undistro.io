@@ -1,10 +1,11 @@
-import React, { useEffect } from "react";
+import React from "react";
 import Layout from "@theme/Layout";
 import Head from "@docusaurus/Head";
-import useBaseUrl from "@docusaurus/useBaseUrl";
-import HubspotForm from "../components/HubspotForm";
 import Translate, { translate } from "@docusaurus/Translate";
-import { FaArrowRight } from "react-icons/fa";
+import { SlideShow } from "../components/Slideshow/Slideshow";
+import { Timeline } from "../components/Timeline/Timeline";
+import { HubspotForm } from "../components/HubspotForm";
+import { ZoraButton } from "../components/Buttons";
 
 export default function Home() {
   return (
@@ -20,25 +21,97 @@ export default function Home() {
         />
       </Head>
       <main className="bg-dark">
-        <div className="bg-[url(/img/background.jpg)] bg-top bg-cover bg-no-repeat min-h-screen">
-          <div className="flex flex-col w-full h-fit items-center justify-center space-y-24 py-24 mx-auto max-w-container 2xl:max-w-7xl">
-            <img
-              className="h-10"
-              src={useBaseUrl("/img/logo-light.svg")}
-              alt="UnDistro"
-            />
-            <h1 className="text-primary text-4xl lg:text-5xl uppercase font-black text-center xl:w-2/3">
-              <Translate id="heading">
-                Know your Kubernetes clusters inside out
-              </Translate>
+        {/* Hero */}
+        <div className="hero" id="home">
+          <div className="flex flex-col w-full h-full items-center justify-center space-y-6 py-24 section md:whitespace-pre-line">
+            <h1 className="heading">
+              <Translate id="heading" />
             </h1>
-            <h2 className="text-primary text-xl md:text-2xl lg:text-3xl font-light md:w-2/3 text-center">
-              <Translate id="subtitle">
-                Manage, spin up and visualize in a standardized and centralized
-                way, one or more clusters.
-              </Translate>
+            <h2 className="text-white text-2xl font-light md:w-2/3 text-center">
+              <Translate id="description" />
             </h2>
-            <HubspotForm />
+          </div>
+        </div>
+        {/* About Section */}
+        <div id="zora" className="section text-white">
+          <div className="flex flex-col lg:flex-row py-32">
+            <div className="flex flex-col text-3xl lg:text-4xl space-y-4 font-sf-pro lg:w-1/2 ">
+              <p className="font-bold tracking-[0.04em] leading-[120%]">
+                <Translate id="zora.title" />
+              </p>
+              <p className="text-primary font-bold tracking-[0.04em] leading-[120%]">
+                <Translate id="zora.alpha" />
+              </p>
+              <p className="font-inter text-lg lg:text-xl text-white opacity-80 ">
+                <Translate id="zora.description" />
+              </p>
+            </div>
+            <div className="flex flex-1 xl:ml-32 my-16 flex-col items-center justify-center space-y-12">
+              <img src="/img/zora.svg" />
+              <ZoraButton />
+            </div>
+          </div>
+        </div>
+        {/* Main Features */}
+        <div className="features py-8">
+          <div className="section space-y-8">
+            <h2 className="title text-white text-center">
+              <Translate id="zora.features.title" />
+            </h2>
+            <SlideShow />
+          </div>
+        </div>
+        {/* Timeline */}
+        <div id="roadmap" className="py-24 space-y-16 section md:max-w-full">
+          <h2 className="title text-white text-center">
+            <Translate id="timeline.title" />
+          </h2>
+          <div>
+            <Timeline />
+          </div>
+        </div>
+        {/* Zora */}
+        <div className="gradient">
+          <div className="section py-32 space-y-8 text-center text-white">
+            <h2 className="title ">
+              <Translate id="alpha.title" />
+            </h2>
+            <p className="font-inter opacity-80 max-w-3xl mx-auto">
+              <Translate id="alpha.description" />
+            </p>
+            <ZoraButton />
+          </div>
+        </div>
+        {/* Community */}
+        <div
+          id="community"
+          className="section py-32 space-y-8 text-center text-white"
+        >
+          <h2 className="title ">
+            <Translate id="community.title" />
+          </h2>
+          <div className="flex bg-[#0D151C] w-fit max-w-full mx-auto rounded-2xl overflow-clip">
+            <a
+              href="https://github.com/undistro/zora"
+              target="_blank"
+              className="group flex flex-col justify-center space-y-2 lg:space-y-6 bg-[#0D151C] hover:bg-[#0F181F] hover:no-underline hover:text-white cursor-pointer transition duration-200 w-96 p-6 h-40 md:h-56"
+            >
+              <img className="h-10 lg:h-16" src="/img/github.svg" />
+              <p className="font-inter lg:text-xl opacity-80 group-hover:opacity-100">
+                <Translate id="community.github" />
+              </p>
+            </a>
+            <div className="border border-[#203446] flex-none my-6 lg:my-12" />
+            <a
+              href="https://join.slack.com/t/undistrocommunity/shared_invite/zt-1h5i4earm-IjOpQeKNby09YzoOcvXqQQ"
+              target="_blank"
+              className="group flex flex-col justify-center space-y-2 lg:space-y-6 bg-[#0D151C] hover:bg-[#0F181F] hover:no-underline hover:text-white cursor-pointer transition duration-200 w-96 p-6 h-40 md:h-56"
+            >
+              <img className="h-10 lg:h-16" src="/img/slack.svg" />
+              <p className="font-inter lg:text-xl opacity-80 group-hover:opacity-100">
+                <Translate id="community.slack" />
+              </p>
+            </a>
           </div>
         </div>
       </main>
