@@ -45,7 +45,7 @@
     "message": "If you don’t know why an issue is in fact a problem for your cluster, we present reliable documentation that will help you understand the root of the problem."
   },
   "timeline.title": {
-    "message": "Milestones"
+    "message": "Roadmap"
   },
   "timeline.items.0.title": {
     "message": "Alpha version is released!"
@@ -182,8 +182,8 @@
   "header.zora": {
     "message": "Zora"
   },
-  "header.milestones": {
-    "message": "Milestones"
+  "header.roadmap": {
+    "message": "Roadmap"
   },
   "header.community": {
     "message": "Community"

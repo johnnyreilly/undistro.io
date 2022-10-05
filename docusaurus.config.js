@@ -78,7 +78,7 @@ const config = {
         items: [
           { to: "/#home", label: "Home" },
           { to: "/#zora", label: "Zora" },
-          { to: "/#milestones", label: "Milestones" },
+          { to: "/#roadmap", label: "Roadmap" },
           { to: "/#community", label: "Community" },
           { to: "contact", label: "Contact", },
           {

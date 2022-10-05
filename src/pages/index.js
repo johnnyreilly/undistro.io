@@ -62,7 +62,7 @@ export default function Home() {
           </div>
         </div>
         {/* Timeline */}
-        <div id="milestones" className="py-24 space-y-16 section md:max-w-full">
+        <div id="roadmap" className="py-24 space-y-16 section md:max-w-full">
           <h2 className="title text-white text-center">
             <Translate id="timeline.title" />
           </h2>

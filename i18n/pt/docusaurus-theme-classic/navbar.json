@@ -7,9 +7,9 @@
     "message": "Zora",
     "description": "Navbar item with label Zora"
   },
-  "item.label.Milestones": {
-    "message": "Milestones",
-    "description": "Navbar item with label Milestones"
+  "item.label.Roadmap": {
+    "message": "Roadmap",
+    "description": "Navbar item with label Roadmap"
   },
   "item.label.Community": {
     "message": "Comunidade",
