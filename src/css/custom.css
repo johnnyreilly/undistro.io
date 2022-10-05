@@ -199,7 +199,7 @@
 
   .form input.hs-button {
     color: #017e7e;
-    @apply bg-white w-fit px-8 py-3 rounded-lg cursor-pointer;
+    @apply bg-white w-fit px-8 py-2 rounded-lg cursor-pointer;
   }
 
   #hubspotForm form {
