@@ -36,7 +36,7 @@
     "message": "Centralized visualization of all the issues"
   },
   "zora.features.items.2.description": {
-    "message": "If you prefer, you can view all your issues in a single list, without having to select each cluster. This enables you to prioritize the resolution of issues by looking at parameters like: severity, total number of clusters, and environments affected."
+    "message": "You can also view all your issues in a single list, without having to select each cluster. This enables you to prioritize the resolution of issues by looking at parameters like: severity, total number of clusters, and environments affected."
   },
   "zora.features.items.3.title": {
     "message": "Documentation"
@@ -176,5 +176,20 @@
   },
   "locale": {
     "message": "en"
+  },
+  "header.home": {
+    "message": "Home"
+  },
+  "header.zora": {
+    "message": "Zora"
+  },
+  "header.milestones": {
+    "message": "Milestones"
+  },
+  "header.community": {
+    "message": "Community"
+  },
+  "header.contact": {
+    "message": "Contact"
   }
 }

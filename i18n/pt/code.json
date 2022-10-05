@@ -36,7 +36,7 @@
     "message": "Visualização centralizada de todas as issues"
   },
   "zora.features.items.2.description": {
-    "message": "Se preferir, você pode visualizar de uma forma centralizada todas as issues de todos os clusters, sem precisar selecionar um cluster por vez. Dessa forma é possível priorizar a resolução de issues através de parâmetros como: severidade quantidade total de clusters e ambientes afetados."
+    "message": "Também é possível visualizar de forma centralizada todas as issues, sem precisar selecionar um cluster por vez. Dessa forma é possível priorizar a resolução de issues através de parâmetros como: severidade quantidade total de clusters e ambientes afetados."
   },
   "zora.features.items.3.title": {
     "message": "Documentação explicativa"
@@ -144,7 +144,7 @@
     "message": "Entre em contato"
   },
   "footer.copyright": {
-    "message": "A Undistro é uma iniciativa de criação de produtos para Kubernetes apoiada pela Getup.io"
+    "message": "A Undistro é uma iniciativa de criação de produtos para Kubernetes apoiada pela"
   },
   "contact.title": {
     "message": "Fale com a UnDistro"
@@ -168,12 +168,27 @@
     "message": "newsletter."
   },
   "cookie.description": {
-    "message": "Este site utiliza cookies para garantir a você uma melhor experiência. Saiba mais"
+    "message": "Este site utiliza cookies para garantir a você uma melhor experiência."
   },
   "cookie.button": {
     "message": "Ok"
   },
   "locale": {
     "message": "pt"
+  },
+  "header.home": {
+    "message": "Home"
+  },
+  "header.zora": {
+    "message": "Zora"
+  },
+  "header.milestones": {
+    "message": "Milestones"
+  },
+  "header.community": {
+    "message": "Comunidade"
+  },
+  "header.contact": {
+    "message": "Contato"
   }
 }

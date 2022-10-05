@@ -28,9 +28,6 @@ export default function Contact() {
         </div>
         <div className="section text-white text-lg text-inter text-opacity-70 py-16 flex flex-col space-y-8 lg:space-y-0 lg:flex-row lg:space-x-16 ">
           <div className="space-y-4 lg:w-1/2">
-            <p className="text-primary text-opacity-100">
-              <Translate id="contact.line1" />
-            </p>
             <p>
               <Translate id="contact.line2" />
             </p>

@@ -81,7 +81,7 @@ function Footer() {
           <p className="opacity-80">Copyright © 2022 UnDistro.</p>
           <p>
             <span className="opacity-60">
-              Undistro is an initiative to create Kubernetes products, backed by
+              <Translate id="footer.copyright" />
             </span>{" "}
             <Link
               to="https://getup.io"
@@ -92,7 +92,7 @@ function Footer() {
             </Link>
           </p>
           {translate({ id: "locale" }) === "pt" && (
-            <div className="flex divide-x opacity-80">
+            <div className="flex divide-x opacity-80 text-opacity-80">
               <Link className="pr-2" to="/politica-de-privacidade">
                 Política de Privacidade
               </Link>

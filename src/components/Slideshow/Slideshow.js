@@ -128,7 +128,7 @@ export const SlideShow = () => {
           <div className="prev" onClick={() => paginate(-1)}>
             <ArrowRight />
           </div>
-          <div className="flex flex-col z-10 items-center text-center space-y-2">
+          <div className="flex flex-col z-10 items-center text-center space-y-2 mt-auto">
             <p className="text-primary text-2xl md:text-3xl font-sf-pro font-bold text-shadow">
               {slides[imageIndex].title}
             </p>

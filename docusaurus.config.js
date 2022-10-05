@@ -80,7 +80,7 @@ const config = {
           { to: "/#zora", label: "Zora" },
           { to: "/#milestones", label: "Milestones" },
           { to: "/#community", label: "Community" },
-          { to: "contact", label: "Contact" },
+          { to: "contact", label: "Contact", },
           {
             type: "localeDropdown",
             position: "left",
