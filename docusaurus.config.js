@@ -96,6 +96,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      image: "img/og-image.png",
     }),
   /** @type {import('@docusaurus/types')} */
   i18n: {
@@ -112,6 +113,7 @@ const config = {
       },
     },
   },
+  
 };
 
 module.exports = config;

@@ -4,7 +4,6 @@ import Head from "@docusaurus/Head";
 import Translate, { translate } from "@docusaurus/Translate";
 import { SlideShow } from "../components/Slideshow/Slideshow";
 import { Timeline } from "../components/Timeline/Timeline";
-import { HubspotForm } from "../components/HubspotForm";
 import { ZoraButton } from "../components/Buttons";
 
 export default function Home() {
