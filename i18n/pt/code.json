@@ -36,7 +36,7 @@
     "message": "Visualização centralizada de todas as issues"
   },
   "zora.features.items.2.description": {
-    "message": "Também é possível visualizar todas as issues de todos os cluster de forma centralizada, possibilitando  priorizar sua resolução através de parâmetros como: severidade quantidade total de clusters e ambientes afetados."
+    "message": "Também é possível visualizar todas as issues de todos os clusters de forma centralizada, possibilitando  priorizar sua resolução através de parâmetros como: severidade quantidade total de clusters e ambientes afetados."
   },
   "zora.features.items.3.title": {
     "message": "Documentação explicativa"
