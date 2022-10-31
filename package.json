@@ -16,7 +16,7 @@
     "deploy:dev": "yarn && yarn build && aws s3 rm s3://dev.undistro.io --recursive && aws s3 sync build/ s3://dev.undistro.io --acl public-read"
   },
   "dependencies": {
-    "@docusaurus/core": "2.0.1",
+    "@docusaurus/core": "2.2.0",
     "@docusaurus/plugin-google-gtag": "^2.1.0",
     "@docusaurus/preset-classic": "2.0.1",
     "@emotion/react": "^11.10.0",
