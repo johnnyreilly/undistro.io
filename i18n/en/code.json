@@ -173,6 +173,9 @@
   "cookie.button": {
     "message": "Ok, got it!"
   },
+  "cookie.button.2": {
+    "message": "Reject all"
+  },
   "locale": {
     "message": "en"
   },

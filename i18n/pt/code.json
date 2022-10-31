@@ -171,7 +171,10 @@
     "message": "Este site utiliza cookies para garantir a você uma melhor experiência."
   },
   "cookie.button": {
-    "message": "Ok"
+    "message": "Aceitar"
+  },
+  "cookie.button.2": {
+    "message": "Rejeitar"
   },
   "locale": {
     "message": "pt"

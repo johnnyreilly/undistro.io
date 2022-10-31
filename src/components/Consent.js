@@ -42,6 +42,7 @@ function Consent() {
         <p>
           <Translate id="cookie.description" />
         </p>
+        <div className="flex gap-2">
         <button
           onClick={() => {
             acceptCookie();
@@ -50,6 +51,15 @@ function Consent() {
         >
           <Translate id="cookie.button" />
         </button>
+        <button
+          onClick={() => {
+            denyCookie();
+          }}
+          className="bg-[#13AAFF] text-black rounded-md text-sm px-8 py-2 w-full lg:w-auto"
+        >
+          <Translate id="cookie.button.2" />
+        </button>
+        </div>
       </div>
     </div>
   );
