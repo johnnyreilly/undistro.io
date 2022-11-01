@@ -7,7 +7,7 @@ export default function Privacy() {
   return (
     <Layout>
       <Head>
-        <title>Privacy Policy</title>
+        <title>Privacy Policy | UnDistro</title>
         <meta
           name="description"
           content={translate({
@@ -82,14 +82,12 @@ export default function Privacy() {
               </b>
             <Translate id="privacy.list.description.3" />
             </p>
-
             <p>
             <b>
               <Translate id="privacy.list.title.4" />
               </b>
             <Translate id="privacy.list.description.4" />
             </p>
-
             <p>
             <b>
               <Translate id="privacy.list.title.5" />
@@ -103,7 +101,6 @@ export default function Privacy() {
               </b>
             <Translate id="privacy.list.description.6" />
             </p>
-
              <p>
             <b>
               <Translate id="privacy.list.title.7" />

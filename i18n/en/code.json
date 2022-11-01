@@ -171,7 +171,7 @@
     "message": "This website uses cookies to ensure you get the best experience."
   },
   "cookie.button": {
-    "message": "Ok, got it!"
+    "message": "Accept all"
   },
   "cookie.button.2": {
     "message": "Reject all"
@@ -478,15 +478,21 @@
     "message": "These are necessary for the Site’s operation. We may use essential cookies to identify users, prevent fraudulent use of user accounts, and/or provide features for protection and interaction on the Site."
   },
   "cookies.list.title.3": {
-    "message": "Functionality cookies: "
+    "message": "Analytical/Performance Cookies:  "
   },
   "cookies.list.description.3": {
-    "message": "We use these to recognize when you return to the site. This allows us to personalize our content for you, greet you by name, and remember your preferences (e.g. your choice of language or region)."
+    "message": "These allow us to recognize and count the number of visitors, and access times, and to see how visitors navigate around the Site while using it; this helps us to improve the way the website functions."
   },
   "cookies.list.title.4": {
-    "message": "Targeting cookies: "
+    "message": "Functionality cookies: "
   },
   "cookies.list.description.4": {
+    "message": "We use these to recognize when you return to the site. This allows us to personalize our content for you, greet you by name, and remember your preferences (e.g. your choice of language or region)."
+  },
+  "cookies.list.title.5": {
+    "message": "Targeting cookies: "
+  },
+  "cookies.list.description.5": {
     "message": "Records your visit to the website, the pages you’ve visited, and the links you’ve followed. This information is used by us to make the website more relevant to your interests and do statistical evaluation regarding interest and quality of our content."
   },
   "cookies.question": {
@@ -547,19 +553,19 @@
     "message": "Personal data provided by third parties: "
   },
   "privacy.list.description.2": {
-    "message": "It is possible that we may collect: information from public databases, made available by authorities (such as the Federal Internal Revenue Service), by third parties, or even data which you have made public on websites or social networks, at all times respecting your privacy and in accordance with your expectations."
+    "message": " It is possible that we may collect: information from public databases, made available by authorities (such as the Federal Internal Revenue Service), by third parties, or even data that you have made public on websites or social networks, at all times respecting your privacy and in accordance with your expectations."
   }, 
   "privacy.list.title.3": {
     "message": "Personal data automatically collected: "
   },
   "privacy.list.description.3": {
-    "message": "Information may also be collected automatically, such as: characteristics of the device you have used to access, data from browsers, IP (including date and time), origin of IP, information regarding clicks, pages accessed, terms used to search which are typed into our portals, among others. For such collection, we may use standard technologies, such as cookies, pixel tags, beacons, and local shared objects, in order to improve your browsing experience while utilizing our services, in accordance with your habits and preferences."
+    "message": "Information may also be collected automatically, such as characteristics of the device you have used to access, data from browsers, IP (including date and time), the origin of IP, information regarding clicks, pages accessed, terms used to search which are typed into our portals, among others. For such collection, we may use standard technologies, such as cookies, pixel tags, beacons, and local shared objects, in order to improve your browsing experience while utilizing our services, by your habits and preferences."
   }, 
   "privacy.list.title.4": {
     "message": "Personal data collected indirectly: "
   },
   "privacy.list.description.4": {
-    "message": "We and our partner may indirectly perform image and video capture through recordings and dissemination of images related to the course. In the case that we need to collect additional personal data, we take care to obtain your consent to do such or advise you of this action. Any authorization we obtain from you will be accompanied by a commensurate degree of information so that you understand clearly what we will do with this data. You will be informed of any use of personal data collected, and it will only be used for the purposes we inform you of."
+    "message": "Our partner and we may indirectly perform image and video capture through recordings and dissemination of images related to the course. In the case that we need to collect additional personal data, we take care to obtain your consent to do such or advise you of this action. Any authorization we obtain from you will be accompanied by a commensurate degree of information so that you understand clearly what we will do with this data. You will be informed of any use of personal data collected, and it will only be used for the purposes we inform you of."
   }, 
   "privacy.list.title.5": {
     "message": "Sensitive Data: "
@@ -571,7 +577,7 @@
     "message": "Legal basis: "
   },
   "privacy.list.description.6": {
-    "message": "With regard to the processing of personal data carried out by us, this will be based, as is applicable to each case, on the following legal hypotheses: for the execution of a contract or preliminary measures; in order to comply with legal or regulatory obligations; in the exercise and defense of the companie ( Getup) rights and interests; or based on a legitimate interest of, always considering and respecting the fundamental rights and guarantees, guaranteed to the owner of the data."
+    "message": "With regard to the processing of personal data carried out by us, this will be based, as is applicable to each case, on the following legal hypotheses: for the execution of a contract or preliminary measures; in order to comply with legal or regulatory obligations; in the exercise and defense of the companie (Getup) rights and interests; or based on a legitimate interest of, always considering and respecting the fundamental rights and guarantees, guaranteed to the owner of the data."
   }, 
   "privacy.list.title.7": {
     "message": "Data controller: "
