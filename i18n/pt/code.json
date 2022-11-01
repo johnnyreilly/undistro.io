@@ -171,7 +171,10 @@
     "message": "Este site utiliza cookies para garantir a você uma melhor experiência."
   },
   "cookie.button": {
-    "message": "Ok"
+    "message": "Aceitar"
+  },
+  "cookie.button.2": {
+    "message": "Rejeitar"
   },
   "locale": {
     "message": "pt"
@@ -441,5 +444,142 @@
   "theme.docs.sidebar.expandButtonAriaLabel": {
     "message": "Expandir painel lateral",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
-  }
+  },
+  "cookies.title": {
+    "message": "Política de Cookies",
+    "description": "The first title of the Cookies page"
+  },
+  "cookies.subTitle": {
+    "message": "Como ultizamos Cookies",
+    "description": "The first subTitle of the Cookies page"
+  },
+  "cookies.description.item.1": {
+    "message": "Cookies são arquivos ou informações que podem ser armazenadas em seus dispositivos quando você visita os canais Web ou utiliza os serviços on-line. A maioria dos navegadores da Internet aceita cookies; entretanto, os usuários podem configurar seus navegadores para recusar certos tipos de cookies ou cookies específicos."
+  },
+  "cookies.description.item.2": {
+    "message": "Além disso, os usuários podem apagar os cookies a qualquer momento."
+  },
+  "cookies.description.item.3": {
+    "message": "Permitimos que você controle e consiga desabilitar os cookies não essenciais, pois usamos cookies para aprender como você interage com o nosso conteúdo e para melhorar sua experiência ao visitar os nossos sites."
+  },
+  "cookies.description.item.4": {
+    "message": "Para entender melhor, apresentamos abaixo a relação de alguns cookies básicos em nossos sites, mas que não se limita a estes:"
+  }, 
+  "cookies.list.title.1": {
+    "message": "Cookies da Sessão: "
+  },
+  "cookies.list.description.1": {
+    "message": "São cookies temporários que utilizamos para se lembrar durante o curso das partes visitadas no nosso site. Eles perdem a validade quando você fecha o navegador."
+  },
+  "cookies.list.title.2": {
+    "message": "Cookies essenciais: "
+  },
+  "cookies.list.description.2": {
+    "message": "Necessário para a operação do Site. Podemos usar cookies essenciais para autenticar usuários, impedir o uso fraudulento de contas de usuário ou oferecer recursos de proteção e interação do Site. • Cookies analíticos/de desempenho: Permite-nos reconhecer e contar o número de visitantes, vezes de acesso e ver como os visitantes se movem pelo Site ao usá-lo; isso nos ajuda a melhorar o funcionamento do site."
+  },   
+  "cookies.list.title.3": {
+    "message": "Cookies de funcionalidade: "
+  },
+  "cookies.list.description.3": {
+    "message": "Usamos para reconhecer quando você retorna ao site. Isso nos permite personalizar nosso conteúdo para você, cumprimentá-lo pelo nome e lembrar suas preferências (por exemplo, sua escolha de idioma ou região)."
+  },
+  "cookies.list.title.4": {
+    "message": "Cookies de segmentação: "
+  },
+  "cookies.list.description.4": {
+    "message": "Grava sua visita ao site, as páginas que você visitou e os links que você seguiu, pois usaremos essas informações para tornar o site mais relevante para seus interesses e avaliação estatística sobre interesse e qualidade nosso conteúdo."
+  },
+  "cookies.question": {
+    "message": "Como eu rejeito ou apago Cookies?"
+  },
+  "cookies.question.description.1": {
+    "message": "Você pode escolher rejeitar ou bloquear todos ou tipos específicos de cookies configurados através da sua navegação ao clicar nas preferências de cookies nos nosso(s) site(s). Você pode modificar as suas preferências alterando as configurações do seu navegador. Favor observar que a maioria dos navegadores aceitam cookies automaticamente. Portanto, se você não quiser que cookies sejam utilizados, você talvez tenha que apagar ou bloquear cookies ativamente."
+  },
+  "cookies.question.description.2": {
+    "message": "Se você rejeitar a utilização de todos os cookies, você continuará conseguindo visitar os nossos sites, mas algumas das funções poderão não funcionar corretamente."
+  }, 
+  "privacy.title": {
+    "message": "Política de Privacidade"
+  },
+  "privacy.subTitle": {
+    "message": "Quais os dados coletamos sobre você?"
+  },
+  "privacy.description": {
+    "message": "Para que possamos disponibilizar melhores serviços e um bom relacionamento, torna-se imprescindível a coleta de algumas informações pessoais. A Getup poderá coletar dados fornecidos diretamente por você, por terceiros ou de forma automática, dependendo do serviço prestado. Veja, abaixo, um pouco mais detalhadamente, algumas das formas de coleta de dados pessoais:"
+  },
+  "privacy.table.C1L1": {
+    "message": "Atividade"
+  },
+  "privacy.table.C2L1": {
+    "message": "Dados pessoais"
+  },
+  "privacy.table.C1L2": {
+    "message": "Processo de Inscrição"
+  },
+  "privacy.table.C2L2": {
+    "message": "Nome; endereço; telefone; nacionalidade; gênero; e-mail; RG; CPF; data de nascimento;"
+  },
+  "privacy.table.C1L3": {
+    "message": "Atendimento - Fale Conosco"
+  },
+  "privacy.table.C2L3": {
+    "message": "Nome; e-mail; telefone;"
+  },
+  "privacy.table.C1L4": {
+    "message": "Trabalhe Conosco"
+  },
+  "privacy.table.C2L4": {
+    "message": "Nome; RG; CPF; CTPS; Título de eleitor; Telefone; E-mail; endereço, certificações e registros em Conselho; data de nascimento; Nome/data de nascimento/profissão Pai, Mãe e Cônjuge;"
+  },
+  "privacy.table.C1L5": {
+    "message": "Cadastro de Funcionários"
+  },
+  "privacy.table.C2L5": {
+    "message": "Nome; RG; CPF; CTPS; Título de eleitor; Etnia; Telefone; E-mail; endereço, certificações e registros em Conselho; data de nascimento; Nome/data de nascimento/profissão Pai, Mãe, Cônjuge;"
+  },
+  "privacy.list.title.1": {
+    "message": "Dados pessoais fornecidos diretamente por você: "
+  },
+  "privacy.list.description.1": {
+    "message": "Os dados pessoais inseridos ou encaminhados por você ao acessar um dos nossos canais (sites ou aplicativos)."
+  }, 
+  "privacy.list.title.2": {
+    "message": "Dados pessoais fornecidos por terceiros: "
+  },
+  "privacy.list.description.2": {
+    "message": "É possível, que a Getup colete: dados de bases públicas, disponibilizadas por autoridades (como a Receita Federal, por exemplo) ou por terceiros, ou até mesmo dados tornados públicos por você em websites ou rede sociais, sempre respeitando a sua privacidade e de acordo com a sua expectativa."
+  }, 
+  "privacy.list.title.3": {
+    "message": "Dados pessoais coletados automaticamente: "
+  },
+  "privacy.list.description.3": {
+    "message": "Também poderão ser coletadas uma série de informações de modo automático, como: características do dispositivo de acesso, do navegador, IP (com data e hora), origem do IP, informações sobre cliques, páginas acessadas, termos de procura digitado em nossos portais, dentre outros. Para tais coletas, poderemos utilizar algumas tecnologias padrões, como cookies, pixel tags, beacons e local shared objects, com o propósito de melhorar a sua experiência de navegação em nossos serviços, de acordo com os seus hábitos e as suas preferências."
+  }, 
+  "privacy.list.title.4": {
+    "message": "Dados pessoais coletados indiretamente: "
+  },
+  "privacy.list.description.4": {
+    "message": "A  Getup e o parceiro poderão executar a captura imagem e vídeo, indiretamente, através de gravações e divulgações de imagens relacionada ao curso. Caso seja necessária à coleta de dados pessoais adicionais, tomaremos o devido cuidado de coletar a sua autorização para tanto ou avisá-lo sobre tal ação. Qualquer autorização que coletarmos de você será acompanhada do devido grau de informação, para que você compreenda o que vamos fazer com as informações. Os dados pessoais coletados somente serão utilizados para cumprir com as finalidades informadas a você."
+  }, 
+  "privacy.list.title.5": {
+    "message": "Dados Sensíveis: "
+  },
+  "privacy.list.description.5": {
+    "message": "A getup geralmente não coleta dados pessoais sensíveis, que são dados como suas crenças religiosas ou filosóficas, origem racial ou étnica, informações de saúde ou médicas (exceto para responder a uma solicitação de acomodação para um evento), dados genéticos ou biométricos , informações de conta bancária (exceto para fins de processamento de seu pedido) ou outros dados pessoais confidenciais semelhantes, conforme definido pela lei aplicável. Se a Getup precisar coletar quaisquer dados pessoais confidenciais de você, a Getup obterá seu consentimento para a coleta de tais dados pessoais conforme exigido pela lei aplicável."
+  }, 
+  "privacy.list.title.6": {
+    "message": "Bases Legais: "
+  },
+  "privacy.list.description.6": {
+    "message": "Em relação aos tratamentos de dados realizados pela Getup estes serão fundamentados, conforme aplicável a cada caso, nas seguintes hipóteses legais: para execução de um contrato ou providências preliminares; para cumprimento de obrigações legais ou regulatórias; para exercício e defesa de direitos e interesses da Getup; ou com base em um interesse legítimo da , sempre considerando e respeitando os direitos e garantias fundamentais asseguradas ao titular dos dados."
+  }, 
+  "privacy.list.title.7": {
+    "message": "Controlador do tratamento: "
+  },
+  "privacy.list.description.7": {
+    "message": "A Getup, no fornecimento de Serviços e na disponibilização de seu Site, atuará como controladora do tratamento em relação aos Dados Pessoais, sejam eles comuns ou sensíveis."
+  },  
+  "privacy.list.description.8": {
+    "message": "O Usuário consente expressamente com a coleta, uso, armazenamento, tratamento de Dados Pessoais e fornecimento a terceiros, quando tal compartilhamento for necessário para o desenvolvimento dos Serviços, nos termos desta Cláusula e demais políticas de privacidade aplicáveis, para fins do art. 7º da Lei nº 12.965, de 23 de abril de 2014 (Marco Civil da Internet), e sem prejuízo dos consentimentos e demais bases legais de tratamento de dados prevista na Lei nº 13.709, de 14 de agosto de 2018 (Lei Geral de Proteção de Dados Pessoais – LGPD)."
+  } 
 }

@@ -171,7 +171,10 @@
     "message": "This website uses cookies to ensure you get the best experience."
   },
   "cookie.button": {
-    "message": "Ok, got it!"
+    "message": "Accept all"
+  },
+  "cookie.button.2": {
+    "message": "Reject all"
   },
   "locale": {
     "message": "en"
@@ -441,5 +444,148 @@
   "theme.docs.sidebar.expandButtonAriaLabel": {
     "message": "Expand sidebar",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
-  }
+  },
+  "cookies.title": {
+    "message": "Cookies Policy",
+    "description": "The first title of the Cookies page"
+  },
+  "cookies.subTitle": {
+    "message": "Como ultizamos Cookies",
+    "description": "The first subTitle of the Cookies page"
+  },
+  "cookies.description.item.1": {
+    "message": "Cookies are files or information that may be stored on your devices when you visit web channels or use online services. Most Internet browsers accept cookies; however, users can configure their browsers to refuse certain types of cookies or specific cookies."
+  },
+  "cookies.description.item.2": {
+    "message": "In addition, users can delete cookies at any time."
+  },
+  "cookies.description.item.3": {
+    "message": "We allow you to control and disable cookies that are non-essential, although cookies are used by us to learn how users interact with our content, and also to improve your experience while visiting our websites."
+  },
+  "cookies.description.item.4": {
+    "message": "To understand better, in a list below some of the basic cookies used on our websites are presented, though not limited only to these:"
+  },
+  "cookies.list.title.1": {
+    "message": "Session Cookies: "
+  },
+  "cookies.list.description.1": {
+    "message": "These are temporary cookies that we use to store information regarding the parts of our site you visit during the course of your visit. They expire when you close your browser."
+  },
+  "cookies.list.title.2": {
+    "message": "Essential Cookies: "
+  },
+  "cookies.list.description.2": {
+    "message": "These are necessary for the Site’s operation. We may use essential cookies to identify users, prevent fraudulent use of user accounts, and/or provide features for protection and interaction on the Site."
+  },
+  "cookies.list.title.3": {
+    "message": "Analytical/Performance Cookies:  "
+  },
+  "cookies.list.description.3": {
+    "message": "These allow us to recognize and count the number of visitors, and access times, and to see how visitors navigate around the Site while using it; this helps us to improve the way the website functions."
+  },
+  "cookies.list.title.4": {
+    "message": "Functionality cookies: "
+  },
+  "cookies.list.description.4": {
+    "message": "We use these to recognize when you return to the site. This allows us to personalize our content for you, greet you by name, and remember your preferences (e.g. your choice of language or region)."
+  },
+  "cookies.list.title.5": {
+    "message": "Targeting cookies: "
+  },
+  "cookies.list.description.5": {
+    "message": "Records your visit to the website, the pages you’ve visited, and the links you’ve followed. This information is used by us to make the website more relevant to your interests and do statistical evaluation regarding interest and quality of our content."
+  },
+  "cookies.question": {
+    "message": "How do I reject or delete Cookies?"
+  },
+  "cookies.question.description.1": {
+    "message": "You may choose to reject or block all or specific types of cookies during your navigation, by clicking “cookie preferences” on our website(s). You can also modify your preferences by changing your browser settings. Please note though that most browsers do automatically accept cookies. Therefore, if you do not want cookies to be used, you may have to actively delete or block cookies."
+  },
+  "cookies.question.description.2": {
+    "message": "If you reject the use of all cookies, you will still be able to visit our websites, but some functions may not work properly."
+  },
+  "privacy.title": {
+    "message": "Privacy Policy"
+  },
+  "privacy.subTitle": {
+    "message": "What data do me collect from our users?"
+  },
+  "privacy.description": {
+    "message": "In order to provide the best service and maintain a good relationship, we must collect some personal information from you. We may collect data you provide directly to us, from third parties, or data which is collected automatically, depending on which service is provided. Below are some of the ways that we collect personal data:"
+  },
+  "privacy.table.C1L1": {
+    "message": "Activity"
+  },
+  "privacy.table.C2L1": {
+    "message": "Personal information"
+  },
+  "privacy.table.C1L2": {
+    "message": "Application process"
+  },
+  "privacy.table.C2L2": {
+    "message": "Name; address; telephone; nationality; gender; email; ID; CPF / SSN; birthdate;"
+  },
+  "privacy.table.C1L3": {
+    "message": "Customer Service - Contact us"
+  },
+  "privacy.table.C2L3": {
+    "message": "Name; email; telephone;"
+  },
+  "privacy.table.C1L4": {
+    "message": "Work with us"
+  },
+  "privacy.table.C2L4": {
+    "message": "Name; ID; CPF; CTPS; Voter registration; Telephone; Email; address, certifications, and Board records; birthdate; Name/date of birth/profession; Father, Mother, Spouse;"
+  },
+  "privacy.table.C1L5": {
+    "message": "Employee registration"
+  },
+  "privacy.table.C2L5": {
+    "message": "Name; ID; CPF; CTPS; Voter registration; ethnicity; Telephone; Email; address, certifications, and Board records; birthdate; Name/date of birth/profession; Father, Mother, Spouse;"
+  },
+  "privacy.list.title.1": {
+    "message": "Personal data provided directly by you: "
+  },
+  "privacy.list.description.1": {
+    "message": "Personal data entered or forwarded by you while accessing one of our channels (websites or apps)."
+  }, 
+  "privacy.list.title.2": {
+    "message": "Personal data provided by third parties: "
+  },
+  "privacy.list.description.2": {
+    "message": " It is possible that we may collect: information from public databases, made available by authorities (such as the Federal Internal Revenue Service), by third parties, or even data that you have made public on websites or social networks, at all times respecting your privacy and in accordance with your expectations."
+  }, 
+  "privacy.list.title.3": {
+    "message": "Personal data automatically collected: "
+  },
+  "privacy.list.description.3": {
+    "message": "Information may also be collected automatically, such as characteristics of the device you have used to access, data from browsers, IP (including date and time), the origin of IP, information regarding clicks, pages accessed, terms used to search which are typed into our portals, among others. For such collection, we may use standard technologies, such as cookies, pixel tags, beacons, and local shared objects, in order to improve your browsing experience while utilizing our services, by your habits and preferences."
+  }, 
+  "privacy.list.title.4": {
+    "message": "Personal data collected indirectly: "
+  },
+  "privacy.list.description.4": {
+    "message": "Our partner and we may indirectly perform image and video capture through recordings and dissemination of images related to the course. In the case that we need to collect additional personal data, we take care to obtain your consent to do such or advise you of this action. Any authorization we obtain from you will be accompanied by a commensurate degree of information so that you understand clearly what we will do with this data. You will be informed of any use of personal data collected, and it will only be used for the purposes we inform you of."
+  }, 
+  "privacy.list.title.5": {
+    "message": "Sensitive Data: "
+  },
+  "privacy.list.description.5": {
+    "message": "We do not generally collect any sensitive personal data; information such as your religious or philosophical beliefs, racial or ethnic origin, health or medical information (except in response to an accommodation request for an event), genetic or biometric data, bank account information (except for the purpose of processing your order), or other similar confidential personal data as defined by the applicable laws. If we need to collect any sensitive personal data from you, we will obtain your consent to the collection of such personal data as required by applicable laws."
+  }, 
+  "privacy.list.title.6": {
+    "message": "Legal basis: "
+  },
+  "privacy.list.description.6": {
+    "message": "With regard to the processing of personal data carried out by us, this will be based, as is applicable to each case, on the following legal hypotheses: for the execution of a contract or preliminary measures; in order to comply with legal or regulatory obligations; in the exercise and defense of the companie (Getup) rights and interests; or based on a legitimate interest of, always considering and respecting the fundamental rights and guarantees, guaranteed to the owner of the data."
+  }, 
+  "privacy.list.title.7": {
+    "message": "Data controller: "
+  },
+  "privacy.list.description.7": {
+    "message": "Getup, in providing Services and making its Site available, will act as processor in relation to Personal Data, regardless of whether the data is common or sensitive."
+  },  
+  "privacy.list.description.8": {
+    "message": "The User expressly consents to the collection, use, storage, and processing of Personal Data and provision to third parties, when such sharing is necessary for the development of Services, under the terms of this Clause and other applicable privacy policies, as in reference to article 7 of Law No. 12,965, of April 23, 2014 (Marco Civil da Internet), and without prejudice to consent and other legal bases for data processing provided for in Brazilian General Data Protection Law -LGPD."
+  } 
 }
