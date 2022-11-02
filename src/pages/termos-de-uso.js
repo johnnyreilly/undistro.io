@@ -65,10 +65,10 @@ export default function Contact() {
           </p>
           <ul className="list-disc ml-8">
             <li>
-              <a href="/politica-de-privacidade">Política de Privacidade</a>
+              <a href="/privacy-policy">Política de Privacidade</a>
             </li>
             <li>
-              <a href="/politica-de-cookies">Política de Cookies</a>
+              <a href="/cookie-policy">Política de Cookies</a>
             </li>
           </ul>
           <p>
