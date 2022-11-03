@@ -26,11 +26,9 @@ export default function Cookies() {
           </div>
         </div>
         <div className="section text-white text-lg text-inter text-opacity-70 py-16 flex flex-col space-y-8">
-          {translate({ id: "locale" }) === "pt" && (
-            <p className="text-2xl font-bold uppercase pt-8">
+           <p className="text-2xl font-bold uppercase pt-8">
               <Translate id="cookies.subTitle" />
             </p>
-          )}
           <p>
             <Translate id="cookies.description.item.1" />
           </p>
