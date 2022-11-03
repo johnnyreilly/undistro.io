@@ -91,19 +91,19 @@ function Footer() {
               Getup.io
             </Link>
           </p>
-          {translate({ id: "locale" }) === "pt" && (
-            <div className="flex divide-x opacity-80 text-opacity-80">
-              <Link className="pr-2" to="/politica-de-privacidade">
-                Política de Privacidade
-              </Link>
-              <Link className="px-2" to="/politica-de-cookies">
-                Política de Cookies
-              </Link>
+          <div className="flex divide-x opacity-80 text-opacity-80">
+            <Link className="pr-2" to="/privacy-policy">
+              <Translate id="privacy.title" />
+            </Link>
+            <Link className="px-2" to="/cookie-policy">
+              <Translate id="cookies.title" />
+            </Link>
+            {translate({ id: "locale" }) === "pt" && (
               <Link className="pl-2" to="/termos-de-uso">
                 Termos de uso
               </Link>
-            </div>
-          )}
+            )}{" "}
+          </div>
         </div>
       </div>
     </footer>

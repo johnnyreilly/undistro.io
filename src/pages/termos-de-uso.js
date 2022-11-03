@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "@theme/Layout";
 import Head from "@docusaurus/Head";
 import { translate } from "@docusaurus/Translate";
+import Link from '@docusaurus/Link';
 
 export default function Contact() {
   return (
@@ -60,15 +61,15 @@ export default function Contact() {
             implica a aceitação plena e sem reservas deste e todos os demais
             termos publicados, além da sua autorização para receber os
             informativos e notícias enviados pela Undistro através do site (
-            <a href="https://undistro.io">www.undistro.io</a>) e também
+            <Link to="https://undistro.io">www.undistro.io</Link>) e também
             aceitação das demais políticas:
           </p>
           <ul className="list-disc ml-8">
             <li>
-              <a href="/politica-de-privacidade">Política de Privacidade</a>
+              <Link to="/privacy-policy">Política de Privacidade</Link>
             </li>
             <li>
-              <a href="/politica-de-cookies">Política de Cookies</a>
+              <Link to="/cookie-policy">Política de Cookies</Link>
             </li>
           </ul>
           <p>
